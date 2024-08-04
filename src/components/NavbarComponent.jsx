@@ -1,6 +1,6 @@
 import React from "react";
 import SearchBar from "./SearchBar";
-import BS_Logo from "../assets/BS_Logo.png";
+import BS_Logo from "../assets/BS_Logo.png";``
 
 const NavbarComponent = () => {
   return (
