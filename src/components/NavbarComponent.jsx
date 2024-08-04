@@ -4,8 +4,8 @@ import BS_Logo from "../assets/BS_Logo.png";
 
 const NavbarComponent = () => {
   return (
-    <div>
-      <div className="flex flex-row items-center ">
+    <div className="sticky top-0 z-50 transition-all duration-300 ease-in-out backdrop-blur-lg ">
+      <div className="flex  flex-row items-center ">
         <div className="navbar p-4">
           <h1 className="text-lg flex cursor-default px-2 py-1 rounded-lg hover:bg-gray-900 transition-all font-bold text-white">
             <div className="flex items-center">
