@@ -1,4 +1,7 @@
 import React from "react";
+import { FaReact } from "react-icons/fa";
+import { RiTailwindCssFill } from "react-icons/ri";
+import { RiNextjsFill } from "react-icons/ri";
 
 const Hero = () => {
   return (
@@ -30,7 +33,11 @@ const Hero = () => {
             </svg>
           </a>
           <h1 className="mb-4 cursor-default text-4xl font-extrabold tracking-tight leading-none  text-white md:text-5xl lg:text-5xl ">
-            Start building in <span className="hover:text-[#007BFF]  transition-all cursor-default">seconds</span>, not hours.{" "}
+            Start building in{" "}
+            <span className="hover:text-[#007BFF]  transition-all cursor-default">
+              seconds
+            </span>
+            , not hours.{" "}
           </h1>
           <p className="mb-8  font-normal text-gray-500 lg:text-md mt-2 sm:px-16 xl:px-48 dark:text-gray-400">
             Fuel your app development with instant, customizable templates.
@@ -41,7 +48,7 @@ const Hero = () => {
               href="#"
               className="inline-flex justify-center text-sm items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900"
             >
-              Get Started
+              Browse Boilerplates
               <svg
                 className="ml-2 -mr-1 w-5 h-5"
                 fill="currentColor"
@@ -55,6 +62,31 @@ const Hero = () => {
                 ></path>
               </svg>
             </a>
+          </div>
+          <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+            <span class="font-semibold text-gray-400 uppercase">
+              FEATURED IN
+            </span>
+            <div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
+              <a
+                href="#"
+                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+              >
+                <FaReact />
+              </a>
+              <a
+                href="#"
+                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+              >
+                <RiTailwindCssFill />
+              </a>
+              <a
+                href="#"
+                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+              >
+                <RiNextjsFill />
+              </a>
+            </div>
           </div>
         </div>
       </section>
