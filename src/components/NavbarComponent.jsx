@@ -1,4 +1,5 @@
 import React from "react";
+import SearchBar from "./SearchBar";
 
 const NavbarComponent = () => {
   return (
@@ -9,14 +10,17 @@ const NavbarComponent = () => {
             BoilerStack
           </h>
         </div>
-        <div className="flex p-4">
-          <p className="text-sm hover:text-gray-100 mr-4 cursor-pointer font-semibold p-1  hover:underline  text-gray-400 transition-all">
-            Pricing
-          </p>
-          <p className="text-sm hover:text-gray-100 cursor-pointer font-semibold p-1 hover:underline text-gray-400 transition-all">
-            Get Started
-          </p>
+        <div className="flex flex-between">
+          <div className="flex p-4">
+            <p className="text-sm hover:text-gray-100 mr-4 cursor-pointer font-semibold p-1  hover:underline  text-gray-400 transition-all">
+              Pricing
+            </p>
+            <p className="text-sm hover:text-gray-100 cursor-pointer font-semibold p-1 hover:underline text-gray-400 transition-all">
+              Get Started
+            </p>
+          </div>
         </div>
+        <SearchBar />
       </div>
     </div>
   );
