@@ -4,7 +4,7 @@ import BS_Logo from "../assets/BS_Logo.png";
 const Footer = () => {
   return (
     <div>
-      <footer className="bg-[#0d0d0d] text-white p-14 border-t border-gray-900">
+      <footer className="bg-[#0d0d0d] text-white p-12 pt-24 border-t border-gray-900">
         <div className="container mx-auto flex flex-col md:flex-row justify-between items-center">
           <div className="mb-4 md:mb-0">
             <h2 className="flex text-2xl font-bold">
