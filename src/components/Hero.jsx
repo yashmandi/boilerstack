@@ -2,6 +2,9 @@ import React from "react";
 import { FaReact } from "react-icons/fa";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { RiNextjsFill } from "react-icons/ri";
+import { IoLogoJavascript } from "react-icons/io5";
+import { SiTypescript } from "react-icons/si";
+import { RiJavascriptFill } from "react-icons/ri";
 
 const Hero = () => {
   return (
@@ -72,19 +75,36 @@ const Hero = () => {
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
               >
-                <FaReact />
+                <FaReact 
+                className="h-10 w-24"/>
               </a>
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
               >
-                <RiTailwindCssFill />
+                <RiTailwindCssFill 
+                className="h-10 w-24"/>
               </a>
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
               >
-                <RiNextjsFill />
+                <RiNextjsFill 
+                className="h-10 w-24"/>
+              </a>
+              <a
+                href="#"
+                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+              >
+                <RiJavascriptFill 
+                className="h-12 w-24"/>
+              </a>
+              <a
+                href="#"
+                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+              >
+                <SiTypescript 
+                className="h-9 w-24"/>
               </a>
             </div>
           </div>
