@@ -13,7 +13,7 @@ const Hero = () => {
             <span className="text-xs bg-[#007BFF]  rounded-full text-white px-4 py-1.5 mr-3">
               New
             </span>{" "}
-            <span className="text-sm font-medium text-black">
+            <span className="text-xs font-medium text-black">
               BoilerStack is out! See what's new
             </span>
             <svg
@@ -29,17 +29,17 @@ const Hero = () => {
               ></path>
             </svg>
           </a>
-          <h1 className="mb-4 cursor-default text-4xl font-extrabold tracking-tight leading-none  text-white md:text-5xl lg:text-6xl ">
+          <h1 className="mb-4 cursor-default text-4xl font-extrabold tracking-tight leading-none  text-white md:text-5xl lg:text-5xl ">
             Start building in <span className="hover:text-[#007BFF]  transition-all cursor-default">seconds</span>, not hours.{" "}
           </h1>
-          <p className="mb-8 text-lg font-normal text-gray-500 lg:text-xl sm:px-16 xl:px-48 dark:text-gray-400">
+          <p className="mb-8  font-normal text-gray-500 lg:text-md mt-2 sm:px-16 xl:px-48 dark:text-gray-400">
             Fuel your app development with instant, customizable templates.
             Choose, customize, and launch your projects swiftly and efficiently
           </p>
           <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
               href="#"
-              className="inline-flex justify-center items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900"
+              className="inline-flex justify-center text-sm items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900"
             >
               Get Started
               <svg
