@@ -68,40 +68,40 @@ const Hero = () => {
           </div>
           <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
             <span class="font-semibold text-gray-400 uppercase">
-              FEATURED IN
+              OPTIMIZED FOR
             </span>
             <div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
               <a
                 href="#"
-                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+                class="mr-5 mb-5 lg:mb-0 hover:text-[#61DAFB] dark:hover:text-gray-400"
               >
                 <FaReact 
                 className="h-10 w-24"/>
               </a>
               <a
                 href="#"
-                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+                class="mr-5 mb-5 lg:mb-0 hover:text-[#38B2AC] dark:hover:text-gray-400"
               >
                 <RiTailwindCssFill 
                 className="h-10 w-24"/>
               </a>
               <a
                 href="#"
-                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+                class="mr-5 mb-5 lg:mb-0 hover:text-[#3c3c3c] dark:hover:text-gray-400"
               >
                 <RiNextjsFill 
                 className="h-10 w-24"/>
               </a>
               <a
                 href="#"
-                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+                class="mr-5 mb-5 lg:mb-0 hover:text-[#F7DF1E] dark:hover:text-gray-400"
               >
                 <RiJavascriptFill 
                 className="h-12 w-24"/>
               </a>
               <a
                 href="#"
-                class="mr-5 mb-5 lg:mb-0 hover:text-gray-800 dark:hover:text-gray-400"
+                class="mr-5 mb-5 lg:mb-0 hover:text-[#3178C6] dark:hover:text-gray-400"
               >
                 <SiTypescript 
                 className="h-9 w-24"/>
