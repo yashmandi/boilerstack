@@ -20,7 +20,7 @@ const SearchBar = ({ placeholder, onSearch }) => {
         value={searchQuery}
         onChange={handleChange}
         placeholder="Search for boilerplate..."
-        className="w-full px-2.5 py-1.5 bg-[#1d1d1d] text-white text-sm  border-gray-600 hover:bg-gray-900 transition-all cursor-pointer border-gray-800 rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-900"
+        className="w-full px-2.5 py-2 bg-[#1d1d1d] text-white text-sm  border-gray-600 hover:bg-gray-900 transition-all cursor-pointer border-gray-800 rounded-lg focus:outline-none focus:ring-1 focus:ring-gray-900"
       />
       {/* <button
         type="submit"

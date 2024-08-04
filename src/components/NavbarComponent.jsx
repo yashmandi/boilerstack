@@ -4,9 +4,9 @@ import SearchBar from "./SearchBar";
 const NavbarComponent = () => {
   return (
     <div>
-      <div className="flex flex-row items-center p-2 ">
+      <div className="flex flex-row items-center ">
         <div className="navbar p-4">
-          <h1 className="text-md hover:bg-gray-900 cursor-default p-2 rounded-lg font-bold text-white">
+          <h1 className="text-md hover:bg-gray-900 cursor-default px-2 py-1 rounded-lg font-bold text-white">
             BoilerStack
           </h1>
         </div>
