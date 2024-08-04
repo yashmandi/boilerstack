@@ -14,7 +14,7 @@ const SearchBar = ({ placeholder, onSearch }) => {
   };
 
   return (
-    <form onSubmit={handleSearch} className="flex items-center">
+    <form onSubmit={handleSearch} className="flex items-center pr-20">
       <input
         type="text"
         value={searchQuery}
