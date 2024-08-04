@@ -5,6 +5,9 @@ import { RiNextjsFill } from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript } from "react-icons/si";
 import { RiJavascriptFill } from "react-icons/ri";
+import { FaHtml5 } from "react-icons/fa";
+import { SiVite } from "react-icons/si";
+import { FaAngular } from "react-icons/fa";
 
 const Hero = () => {
   return (
@@ -49,7 +52,7 @@ const Hero = () => {
           <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
             <a
               href="#"
-              className="inline-flex justify-center text-sm items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900"
+              className="inline-flex justify-center text-sm items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 mb-14 hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900"
             >
               Browse Boilerplates
               <svg
@@ -66,11 +69,12 @@ const Hero = () => {
               </svg>
             </a>
           </div>
-          <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36">
+          {/* <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36"> */}
+          <div class="text-center ">
             <span class="font-semibold text-gray-400 uppercase">
               OPTIMIZED FOR
             </span>
-            <div class="flex flex-wrap justify-center items-center mt-8 text-gray-500 sm:justify-between">
+            <div class="flex flex-wrap justify-center items-center mt-16 text-gray-500 sm:justify-between">
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#61DAFB] dark:hover:text-gray-400"
@@ -104,6 +108,27 @@ const Hero = () => {
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#3178C6] dark:hover:text-gray-400"
               >
                 <SiTypescript 
+                className="h-9 w-24"/>
+              </a>
+              <a
+                href="#"
+                class="mr-5 mb-5 lg:mb-0 hover:text-[#646CFF] dark:hover:text-gray-400"
+              >
+                <SiVite 
+                className="h-9 w-24"/>
+              </a>
+              <a
+                href="#"
+                class="mr-5 mb-5 lg:mb-0 hover:text-[#DD0031] dark:hover:text-gray-400"
+              >
+                <FaAngular 
+                className="h-9 w-24"/>
+              </a>
+              <a
+                href="#"
+                class="mr-5 mb-5 lg:mb-0 hover:text-[#E44D26] dark:hover:text-gray-400"
+              >
+                <FaHtml5 
                 className="h-9 w-24"/>
               </a>
             </div>

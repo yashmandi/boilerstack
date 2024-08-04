@@ -1,6 +1,6 @@
 import React from "react";
 import SearchBar from "./SearchBar";
-import BS_Logo from "../assets/BS_Logo.png";``
+import BS_Logo from "../assets/BS_Logo.png";
 
 const NavbarComponent = () => {
   return (
@@ -16,10 +16,10 @@ const NavbarComponent = () => {
         </div>
         <div className="flex-grow flex justify-between items-center p-4">
           <div className="flex">
-            <p className="text-sm hover:text-gray-100 mr-2 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
+            <p className="text-sm hover:text-gray-100 mr-5 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
               Pricing
             </p>
-            <p className="text-sm hover:text-gray-100 mr-2 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
+            <p className="text-sm hover:text-gray-100 mr-5 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
               Get Started
             </p>
             <p className="text-sm hover:text-gray-100 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
