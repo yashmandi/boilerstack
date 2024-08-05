@@ -1,34 +1,39 @@
 import React, { useState } from "react";
 
 const SidebarMenu = () => {
-  // State for each menu section
   const [openSection, setOpenSection] = useState(null);
 
-  // Toggle the visibility of a section
   const toggleSection = (section) => {
     setOpenSection(openSection === section ? null : section);
   };
 
   return (
-    <ul className="space-y-2 pl-16 pt-2">
+    <ul className="space-y-2 pl-16 pt-2 h-screen w-72 border-r">
       {/* Frontend Section */}
       <li>
         <a
           href="#"
-          onClick={() => toggleSection("react")}
+          onClick={() => toggleSection("introduction")}
+          className="flex items-start justify-start text-center  font-extrabold  rounded-lg text-gray-400  text-white bg-[#0d0d0d] "
+        >
+          <span className="text-lg pt-4 pl-8 mb-2">Introduction</span>
+        </a>
+        <a
+          href="#"
+          onClick={() => toggleSection("frontend")}
           className="flex items-start justify-start text-center text-sm font-extrabold  rounded-lg text-gray-400  text-white bg-[#0d0d0d] "
         >
-          <span className="text-lg pt-4 pl-8 mb-4 ">Frontend</span>
+          <span className="text-lg pt-4 pl-8 mb-2">Frontend</span>
         </a>
         <a
           href="#"
           onClick={() => toggleSection("react")}
-          className="flex items-start justify-start text-center text-sm  rounded-lg text-gray-200  hover:text-white bg-[#0d0d0d] hover:underline group"
+          className="flex items-start justify-start text-center text-sm   rounded-lg text-gray-200  hover:text-white bg-[#0d0d0d] hover:underline group"
         >
-          <span className="text-sm pl-8 font-semibold">React</span>
+          <span className="pl-8">React</span>
         </a>
         {openSection === "react" && (
-          <ul className="ml-10 mt-1.5 mb-4 text-sm  space-y-0.5">
+          <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
             <li>
               <a href="#" className="text-gray-300 hover:text-white">
                 React with Create React App
@@ -58,9 +63,9 @@ const SidebarMenu = () => {
         <a
           href="#"
           onClick={() => toggleSection("vue")}
-          className="flex items-start justify-start text-center text-sm  rounded-lg text-gray-200  hover:text-white hover:text-white bg-[#0d0d0d] hover:underline group"
+          className="flex items-start justify-start text-center text-sm  rounded-lg text-gray-200  hover:text-white bg-[#0d0d0d] hover:underline group"
         >
-          <span className="text-sm pl-8 font-semibold">Vue</span>
+          <span className="text-sm pl-8">Vue</span>
         </a>
         {openSection === "vue" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
@@ -88,9 +93,9 @@ const SidebarMenu = () => {
         <a
           href="#"
           onClick={() => toggleSection("angular")}
-          className="flex items-start justify-start text-center text-sm  rounded-lg text-gray-200  hover:text-white hover:text-white bg-[#0d0d0d] hover:underline group"
+          className="flex items-start justify-start text-center text-sm  rounded-lg text-gray-200  hover:text-white bg-[#0d0d0d] hover:underline group"
         >
-          <span className="text-sm pl-8 font-semibold">Angular</span>
+          <span className="text-sm pl-8">Angular</span>
         </a>
         {openSection === "angular" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
@@ -108,9 +113,9 @@ const SidebarMenu = () => {
         <a
           href="#"
           onClick={() => toggleSection("svelte")}
-          className="flex items-start justify-start text-center text-sm  rounded-lg text-gray-200  hover:text-white hover:text-white bg-[#0d0d0d] hover:underline group"
+          className="flex items-start justify-start text-center text-sm  rounded-lg text-gray-200  hover:text-white bg-[#0d0d0d] hover:underline group"
         >
-          <span className="text-sm pl-8 font-semibold">Svelte</span>
+          <span className="text-sm pl-8">Svelte</span>
         </a>
         {openSection === "svelte" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
@@ -133,9 +138,9 @@ const SidebarMenu = () => {
         <a
           href="#"
           onClick={() => toggleSection("nextjs")}
-          className="flex items-start justify-start text-center text-sm  rounded-lg text-gray-200  hover:text-white hover:text-white bg-[#0d0d0d] hover:underline group"
+          className="flex items-start justify-start text-center text-sm  rounded-lg text-gray-200  hover:text-white bg-[#0d0d0d] hover:underline group"
         >
-          <span className="text-sm pl-8 font-semibold">Next.js</span>
+          <span className="text-sm pl-8">Next.js</span>
         </a>
         {openSection === "nextjs" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
@@ -152,6 +157,89 @@ const SidebarMenu = () => {
           </ul>
         )}
       </li>
+
+      {/* Backend Section */}
+      <li>
+        <a
+          href="#"
+          onClick={() => toggleSection("backend")}
+          className="flex items-start justify-start text-center text-sm font-extrabold rounded-lg text-gray-400 text-white bg-[#0d0d0d]"
+        >
+          <span className="text-lg pt-4 pl-8 mb-2">Backend</span>
+        </a>
+        <a
+          href="#"
+          onClick={() => toggleSection("nodejs")}
+          className="flex items-start justify-start text-center text-sm rounded-lg text-gray-200 hover:text-white bg-[#0d0d0d] hover:underline group"
+        >
+          <span className="pl-8">Node.js</span>
+        </a>
+        {openSection === "nodejs" && (
+          <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
+            <li>
+              <a href="#" className="text-gray-300 hover:text-white">
+                Express with MongoDB
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-300 hover:text-white">
+                Express with TypeScript
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-300 hover:text-white">
+                Koa.js
+              </a>
+            </li>
+          </ul>
+        )}
+      </li>
+
+      {/* Django Section */}
+      <li>
+        <a
+          href="#"
+          onClick={() => toggleSection("django")}
+          className="flex items-start justify-start text-center text-sm rounded-lg text-gray-200 hover:text-white bg-[#0d0d0d] hover:underline group"
+        >
+          <span className="text-sm pl-8">Django</span>
+        </a>
+        {openSection === "django" && (
+          <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
+            <li>
+              <a href="#" className="text-gray-300 hover:text-white">
+                Django with REST framework
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-300 hover:text-white">
+                Django with GraphQL
+              </a>
+            </li>
+          </ul>
+        )}
+      </li>
+
+      {/* Flask Section */}
+      <li>
+        <a
+          href="#"
+          onClick={() => toggleSection("flask")}
+          className="flex items-start justify-start text-center text-sm rounded-lg text-gray-200 hover:text-white bg-[#0d0d0d] hover:underline group"
+        >
+          <span className="text-sm pl-8">Flask</span>
+        </a>
+        {openSection === "flask" && (
+          <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
+            <li>
+              <a href="#" className="text-gray-300 hover:text-white">
+                Flask with SQLAlchemy
+              </a>
+            </li>
+          </ul>
+        )}
+      </li>
+
     </ul>
   );
 };
