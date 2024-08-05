@@ -1,5 +1,5 @@
 import React from "react";
-
+import { Link } from "react-router-dom";
 const Section = () => {
   return (
     <div className=" border-gray-900  pt-40 pb-24 flex justify-center">
@@ -17,9 +17,11 @@ const Section = () => {
                 generate the perfect templates for your project, so you can
                 pretend you did all the hard work.
               </p>
-              <div className="mt-10 w-32 inline-flex justify-center text-sm items-center py-3 px-2 text-base font-medium text-center  rounded-lg bg-primary-700 text-gray-500 hover:text-white transition-all cursor-pointer  hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900">
-                Take me there!
-              </div>
+              <Link to="/stack">
+                <div className="mt-10 w-32 inline-flex justify-center text-sm items-center py-3 px-2 text-base font-medium text-center  rounded-lg bg-primary-700 text-gray-500 hover:text-white transition-all cursor-pointer  hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900">
+                  Take me there!
+                </div>
+              </Link>
             </div>
           </div>
 
