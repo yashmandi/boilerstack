@@ -15,7 +15,7 @@ const Footer = () => {
             </h2>
             <p className="text-sm mt-2">
               A product by{" "}
-              <a href="" className="text-blue-800 text-sm hover:underline">
+              <a href="" className="text-blue-800 text-sm hover:underline transition-all">
                 BoilerStack
               </a>
             </p>
@@ -23,7 +23,7 @@ const Footer = () => {
               Building in public at{" "}
               <a
                 href="https://twitter.com/yashmandi"
-                className="text-blue-800 text-sm hover:underline"
+                className="text-blue-800 text-sm hover:underline transition-all"
               >
                 @yashmandi
               </a>
@@ -33,31 +33,31 @@ const Footer = () => {
             <div className="mr-8 text-sm font-semibold ">
               <a
                 href="/pricing"
-                className="block mb-2 hover:text-gray-100 text-gray-500"
+                className="block mb-2 hover:text-gray-100 transition-all text-gray-500"
               >
                 Pricing
               </a>
               <a
                 href="/components"
-                className="block mb-2 hover:text-gray-100 text-gray-500"
+                className="block mb-2 hover:text-gray-100 transition-all text-gray-500"
               >
                 Components
               </a>
               <a
                 href="/templates"
-                className="block mb-2 hover:text-gray-100 text-gray-500"
+                className="block mb-2 hover:text-gray-100 transition-all text-gray-500"
               >
                 Templates
               </a>
               <a
                 href="/categories"
-                className="block mb-2 hover:text-gray-100 text-gray-500"
+                className="block mb-2 hover:text-gray-100 transition-all text-gray-500"
               >
                 Categories
               </a>
               <a
                 href="/blog"
-                className="block mb-2 hover:text-gray-100 text-gray-500"
+                className="block mb-2 hover:text-gray-100 transition-all text-gray-500"
               >
                 Blog
               </a>
@@ -65,13 +65,13 @@ const Footer = () => {
             <div className="text-sm font-semibold">
               <a
                 href="https://twitter.com"
-                className="block mb-2 hover:text-gray-100 text-gray-500"
+                className="block mb-2 hover:text-gray-100 transition-all text-gray-500"
               >
                 Twitter
               </a>
               <a
                 href="https://discord.com"
-                className="block hover:text-gray-100 text-gray-500"
+                className="block hover:text-gray-100 transition-all text-gray-500"
               >
                 Discord
               </a>
