@@ -8,7 +8,7 @@ const SidebarComponent = () => {
         data-drawer-toggle="default-sidebar"
         aria-controls="default-sidebar"
         type="button"
-        className="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-500 rounded-lg sm:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 hover:bg-gray-700 focus:ring-gray-600"
+        className="inline-flex items-center p-2 mt-2 ml-3 text-sm text-gray-400 hovertext-gray-400 hover:text-white :text-whiterounded-lg sm:hidden focus:outline-none focus:ring-2 focus:ring-gray-200 text-gray-400 hovertext-gray-400 hover:text-white :text-whitehover:bg-gray-700 focus:ring-gray-600"
       >
         <span className="sr-only">Open sidebar</span>
         <svg
@@ -36,175 +36,90 @@ const SidebarComponent = () => {
             <li>
               <a
                 href="#"
-                className="flex items-center justify-center text-center p-2 text-sm font-bold text-gray-900 rounded-lg text-white bg-[#0d0d0d] hover:bg-[#121212] group"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
               >
-                <span className="text-sm font-semibold">Overview</span>
+                <span className="text-sm font-semibold">Frontend</span>
               </a>
-            </li>
-
-            <li>
-              <button
-                type="button"
-                className="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                aria-controls="dropdown-pages"
-                data-collapse-toggle="dropdown-pages"
-              >
-                <span className="flex-1 ml-3 text-sm font-semibold text-left whitespace-nowrap">
-                  Pages
-                </span>
-                <svg
-                  aria-hidden="true"
-                  className="w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </button>
-              <ul id="dropdown-pages" className="hidden py-2 space-y-2">
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-black"
-                  >
-                    Settings
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                  >
-                    Kanban
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                  >
-                    Calendar
-                  </a>
-                </li>
-              </ul>
-            </li>
-            <li>
-              <button
-                type="button"
-                className="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                aria-controls="dropdown-sales"
-                data-collapse-toggle="dropdown-sales"
-              >
-                <span className="flex-1 ml-3 text-left whitespace-nowrap">
-                  Sales
-                </span>
-                <svg
-                  aria-hidden="true"
-                  className="w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </button>
-              <ul id="dropdown-sales" className="hidden py-2 space-y-2">
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                  >
-                    Products
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                  >
-                    Billing
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                  >
-                    Invoice
-                  </a>
-                </li>
-              </ul>
             </li>
             <li>
               <a
                 href="#"
-                className="flex items-center p-2 text-base font-normal text-gray-900 rounded-lg text-white bg-[#1f1f1f] hover:bg-gray-700 group"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
               >
-                <span className="flex-1 ml-3 whitespace-nowrap">Messages</span>
+                <span className="text-sm font-semibold">Overview</span>
               </a>
             </li>
             <li>
-              <button
-                type="button"
-                className="flex items-center p-2 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                aria-controls="dropdown-authentication"
-                data-collapse-toggle="dropdown-authentication"
+              <a
+                href="#"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
               >
-                <span className="flex-1 ml-3 text-left whitespace-nowrap">
-                  Authentication
-                </span>
-                <svg
-                  aria-hidden="true"
-                  className="w-4 h-4"
-                  fill="currentColor"
-                  viewBox="0 0 20 20"
-                  xmlns="http://www.w3.org/2000/svg"
-                >
-                  <path
-                    fill-rule="evenodd"
-                    d="M5.293 7.293a1 1 0 011.414 0L10 10.586l3.293-3.293a1 1 0 111.414 1.414l-4 4a1 1 0 01-1.414 0l-4-4a1 1 0 010-1.414z"
-                    clip-rule="evenodd"
-                  ></path>
-                </svg>
-              </button>
-              <ul
-                id="dropdown-authentication"
-                className="hidden py-2 space-y-2"
+                <span className="text-sm font-semibold">Overview</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
               >
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                  >
-                    Sign In
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                  >
-                    Sign Up
-                  </a>
-                </li>
-                <li>
-                  <a
-                    href="#"
-                    className="flex items-center p-2 pl-11 w-full text-base font-normal text-gray-900 rounded-lg transition duration-75 group bg-[#1f1f1f] text-white hover:bg-gray-700"
-                  >
-                    Forgot Password
-                  </a>
-                </li>
-              </ul>
+                <span className="text-sm font-semibold">Overview</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
+              >
+                <span className="text-sm font-semibold">Overview</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
+              >
+                <span className="text-sm font-semibold">Overview</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
+              >
+                <span className="text-sm font-semibold">Overview</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
+              >
+                <span className="text-sm font-semibold">Overview</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
+              >
+                <span className="text-sm font-semibold">Overview</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
+              >
+                <span className="text-sm font-semibold">Overview</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="#"
+                className="flex items-center justify-center text-center p-2 text-sm font-bold  rounded-lg text-gray-400 hovertext-gray-400 hover:text-white :text-whitebg-[#0d0d0d] hover:underline group"
+              >
+                <span className="text-sm font-semibold">Overview</span>
+              </a>
             </li>
           </ul>
         </div>
