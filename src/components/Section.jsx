@@ -12,12 +12,12 @@ const Section = () => {
               <h3 className="mt-4 text-xl font-bold sm:text-2xl">
                 Why BoilerStack?
               </h3>
-              <p className="mt-6 text-lg w-[80%] ml-24 font-normal text-white">
-                Because who has time to start coding from scratch?
-                Instantly generate the perfect templates for your project, so
-                you can pretend you did all the hard work.
+              <p className="mt-6 text-md w-[80%] justify-center ml-24 font-normal text-white">
+                Because who has time to start coding from scratch? Instantly
+                generate the perfect templates for your project, so you can
+                pretend you did all the hard work.
               </p>
-              <div className="mt-10 font-bold text-sm text-gray-600 cursor-pointer hover:text-white">
+              <div className="mt-10 w-32 inline-flex justify-center text-sm items-center py-3 px-2 text-base font-medium text-center  rounded-lg bg-primary-700 text-gray-500 hover:text-white transition-all cursor-pointer  hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900">
                 Take me there!
               </div>
             </div>
