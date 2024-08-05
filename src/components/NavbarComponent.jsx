@@ -9,8 +9,8 @@ const NavbarComponent = () => {
         <div className="navbar pl-20">
           <h1 className="text-lg flex cursor-default px-2 py-1 rounded-lg hover:bg-gray-900 transition-all font-bold text-white">
             <div className="flex items-center">
-              <img src={BS_Logo} className="h-8 w-8 mr-1" alt="" />
-              BoilerStack
+                <img src={BS_Logo} className="h-8 w-8 mr-1" alt="" />
+                BoilerStack
             </div>
           </h1>
         </div>
