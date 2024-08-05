@@ -2,21 +2,24 @@ import React from "react";
 
 const Section = () => {
   return (
-    <div className=" border-gray-900 pt-40 pb-24 flex justify-center">
-      <a href="#" className="group relative block w-96 sm:h-80 lg:h-96">
-        <span className="absolute inset-0 border-2 border-dashed rounded-xl border-gray-700"></span>
-        <div className="relative cursor-default flex h-full items-center justify-center border-2 rounded-xl border-gray-200 bg-[#111111] transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
+    <div className=" border-gray-900  pt-40 pb-24 flex justify-center">
+      <a href="#" className="group relative w-4/5 block  sm:h-80 lg:h-96">
+        <span className="absolute inset-0 border-2 border-dashed rounded-md border-gray-700"></span>
+        <div className="relative cursor-default flex h-full items-center justify-center border-2 rounded-md  border-gray-200 bg-[#111111] transition-transform group-hover:-translate-x-2 group-hover:-translate-y-2">
           {/* Text visible on hover */}
-          <div className="absolute flex items-center rounded-xl justify-center p-4 text-white opacity-0 transition-opacity group-hover:opacity-100 sm:p-6 lg:p-8">
+          <div className="absolute flex items-center rounded-md justify-center p-4 text-white opacity-0 transition-opacity group-hover:opacity-100 sm:p-6 lg:p-8">
             <div className="text-center">
-              <h3 className="mt-4 text-xl font-medium sm:text-2xl">
-                How to use?
+              <h3 className="mt-4 text-xl font-bold sm:text-2xl">
+                Why BoilerStack?
               </h3>
-              <p className="mt-4 text-sm font-semibold text-white">
-                Download the pre-built codebase from GitHub and start building
-                instantly.
+              <p className="mt-6 text-lg w-[80%] ml-24 font-normal text-white">
+                Because who has time to start coding from scratch?
+                Instantly generate the perfect templates for your project, so
+                you can pretend you did all the hard work.
               </p>
-              <div className="mt-10 font-bold text-sm text-gray-600 cursor-pointer hover:text-white">Take me there!</div>
+              <div className="mt-10 font-bold text-sm text-gray-600 cursor-pointer hover:text-white">
+                Take me there!
+              </div>
             </div>
           </div>
 
