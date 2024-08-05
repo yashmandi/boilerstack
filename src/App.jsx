@@ -1,11 +1,20 @@
-import Landing from "./pages/Landing";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import Landing from './pages/Landing';
+import Stack from './pages/Stack';
 
 function App() {
   return (
-    <>
-      <Landing />
-    </>
+    <Routes>
+      <Route path="/" element={<Landing />} />
+      <Route path="/stack" element={<Stack />} />
+    </Routes>
   );
 }
 
-export default App;
+const AppWithRouter = () => (
+  <Router>
+    <App />
+  </Router>
+);
+
+export default AppWithRouter;
