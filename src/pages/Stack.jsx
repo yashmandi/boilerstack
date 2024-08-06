@@ -8,7 +8,7 @@ const Stack = () => {
     <div className="relative">
       <NavbarComponent />
       <Sidebar />
-      <div className="absolute top-20 left-80 right-80 z-10 bg-lightblue p-5">
+      <div className="absolute top-20 left-96 right-80 z-10 bg-lightblue p-5">
         <Intro />
       </div>
     </div>
