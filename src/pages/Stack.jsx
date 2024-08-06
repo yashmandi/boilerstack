@@ -11,6 +11,7 @@ import ReactViteWithRedux from "../components/SidebarPages.jsx/ReactViteWithRedu
 import Vue3WithVite from "../components/SidebarPages.jsx/Vue3WithVite";
 import Vue3WithVueCli from "../components/SidebarPages.jsx/Vue3WithVueCli";
 import VueWithTailwind from "../components/SidebarPages.jsx/VueWithTailwind";
+import AngularWithAngularCLI from "../components/SidebarPages.jsx/AngularWithAngularCLI";
 
 
 const Stack = () => {
@@ -36,6 +37,8 @@ const Stack = () => {
         return <Vue3WithVueCli />;
       case "vue-with-tailwind":
         return <VueWithTailwind />;
+      case "angular-with-angular-cli":
+        return <AngularWithAngularCLI />;
       default:
         return <Intro />;
     }

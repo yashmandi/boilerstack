@@ -109,7 +109,7 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-            <button
+              <button
                 onClick={() => setActiveTab("vue-with-tailwind")}
                 className="text-gray-300 mb-1 hover:text-white"
               >
@@ -132,9 +132,12 @@ const SidebarMenu = ({ setActiveTab }) => {
         {openSection === "angular" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <button
+                onClick={() => setActiveTab("angular-with-angular-cli")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
                 Angular with Angular CLI
-              </a>
+              </button>
             </li>
           </ul>
         )}
