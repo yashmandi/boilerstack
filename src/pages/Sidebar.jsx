@@ -240,6 +240,69 @@ const SidebarMenu = () => {
         )}
       </li>
 
+      {/* Fullstack Boilerplates Section */}
+      <li>
+        <a
+          href="#"
+          onClick={() => toggleSection("fullstack")}
+          className="flex items-start justify-start text-center text-sm font-extrabold rounded-lg text-gray-400 text-white bg-[#0d0d0d]"
+        >
+          <span className="text-lg pt-4 pl-8 mb-2">Fullstack</span>
+        </a>
+        <li>
+          <a
+            href="#"
+            onClick={() => toggleSection("fullstack")}
+            className="flex items-start justify-start text-center text-sm mb-2 rounded-lg text-gray-200 hover:text-white bg-[#0d0d0d] hover:underline group"
+          >
+            <span className="text-sm pl-8">MERN Stack</span>
+          </a>
+          <a
+            href="#"
+            onClick={() => toggleSection("fullstack")}
+            className="flex items-start justify-start text-center text-sm mb-2 rounded-lg text-gray-200 hover:text-white bg-[#0d0d0d] hover:underline group"
+          >
+            <span className="text-sm pl-8">MEVN Stack</span>
+          </a>
+          <a
+            href="#"
+            onClick={() => toggleSection("fullstack")}
+            className="flex items-start justify-start text-center text-sm rounded-lg text-gray-200 hover:text-white bg-[#0d0d0d] hover:underline group"
+          >
+            <span className="text-sm pl-8">MEAN Stack</span>
+          </a>
+        </li>
+      </li>
+
+      {/* Mobile Boilerplates Section */}
+      {/* <li>
+        <a
+          href="#"
+          onClick={() => toggleSection("mobile")}
+          className="flex items-start justify-start text-center text-sm font-extrabold rounded-lg text-gray-400 text-white bg-[#0d0d0d]"
+        >
+          <span className="text-lg pt-4 pl-8 mb-2">Mobile</span>
+        </a>
+        {openSection === "mobile" && (
+          <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
+            <li>
+              <a href="#" className="text-gray-300 hover:text-white">
+                React Native
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-300 hover:text-white">
+                Flutter
+              </a>
+            </li>
+            <li>
+              <a href="#" className="text-gray-300 hover:text-white">
+                Ionic
+              </a>
+            </li>
+          </ul>
+        )}
+      </li> */}
     </ul>
   );
 };
