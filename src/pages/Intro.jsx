@@ -3,7 +3,7 @@ import React from 'react'
 const Intro = () => {
   return (
     <div >
-      <p className='text-white'>nkejfner</p>
+      <h1 className='text-white font-bold text-2xl'>Introduction</h1>
     </div>
   )
 }
