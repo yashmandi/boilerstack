@@ -93,9 +93,12 @@ const SidebarMenu = ({ setActiveTab }) => {
         {openSection === "vue" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <button
+                onClick={() => setActiveTab("vue-3-with-vite")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
                 Vue 3 with Vite
-              </a>
+              </button>
             </li>
             <li>
               <a href="#" className="text-gray-300 hover:text-white">

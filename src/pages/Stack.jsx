@@ -8,6 +8,7 @@ import Footer from "../components/Footer";
 import ReactWithVite from "../components/SidebarPages.jsx/ReactWithVite";
 import ReactViteWithTailwind from "../components/SidebarPages.jsx/ReactViteWithTailwind";
 import ReactViteWithRedux from "../components/SidebarPages.jsx/ReactViteWithRedux";
+import Vue3WithVite from "../components/SidebarPages.jsx/Vue3WithVite";
 
 
 const Stack = () => {
@@ -27,6 +28,8 @@ const Stack = () => {
         return <ReactViteWithTailwind />;
       case "react-vite-with-redux":
         return <ReactViteWithRedux />;
+      case "vue-3-with-vite":
+        return <Vue3WithVite />;
       default:
         return <Intro />;
     }
