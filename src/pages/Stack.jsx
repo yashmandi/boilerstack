@@ -4,15 +4,22 @@ import Sidebar from "./Sidebar";
 import Intro from "./Intro";
 import ReactWithCreateReactApp from "../components/SidebarPages.jsx/ReactWithCreateReactApp";
 
+
 const Stack = () => {
-  const [activeTab, setActiveTab] = useState("docs");
+  const [activeTab, setActiveTab] = useState("intro");
 
   const renderContent = () => {
     switch (activeTab) {
-      case "docs":
+      case "intro":
         return <Intro />;
       case "react-with-create-react-app":
         return <ReactWithCreateReactApp />;
+      // case "react-with-vite":
+      //   return <ReactWithVite />;
+      // case "react-with-tailwind":
+      //   return <ReactWithTailwind />;
+      // case "react-with-redux":
+      //   return <ReactWithRedux />;
       default:
         return <Intro />;
     }

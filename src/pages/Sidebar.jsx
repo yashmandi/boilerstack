@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
-const SidebarMenu = () => {
+const SidebarMenu = ({ setActiveTab }) => {
   const [openSection, setOpenSection] = useState(null);
 
   const toggleSection = (section) => {
@@ -36,9 +36,12 @@ const SidebarMenu = () => {
         {openSection === "react" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
             <li>
-              <Link to="/docs/react-with-create-react-app" className="text-gray-300 hover:text-white">
+              <button
+                onClick={() => setActiveTab("react-with-create-react-app")}
+                className="text-gray-300 hover:text-white"
+              >
                 React with Create React App
-              </Link>
+              </button>
             </li>
             <li>
               <a href="#" className="text-gray-300 hover:text-white">
