@@ -2,8 +2,8 @@ import React from 'react'
 
 const Intro = () => {
   return (
-    <div>
-      
+    <div >
+      <p className='text-white'>nkejfner</p>
     </div>
   )
 }
