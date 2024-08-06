@@ -12,13 +12,13 @@ const SidebarMenu = ({ setActiveTab }) => {
     <ul className="space-y-2 pl-16 pt-2 h-  w-80  border-gray-900">
       {/* Frontend Section */}
       <li>
-        <a
+        <button
           href="#"
-          onClick={() => toggleSection("introduction")}
+          onClick={() => setActiveTab("intro")}
           className="flex items-start justify-start text-center  font-extrabold  rounded-lg text-gray-400  text-white bg-[#0d0d0d] "
         >
           <span className="text-lg pt-4 pl-8 mb-2">Introduction</span>
-        </a>
+        </button>
         <a
           href="#"
           onClick={() => toggleSection("frontend")}
