@@ -33,25 +33,25 @@ const ReactWithCreateReactApp = () => {
       <h2 className="text-xl font-bold mt-6 mb-2">How to Get Started</h2>
       <h3 className="text-lg font-semibold mb-2">Option 1: Clone from GitHub</h3>
       <ol className="list-decimal ml-5 mb-4 text-sm">
-        <li>Clone the repository: <code>git clone https://github.com/your-repo-link.git</code></li>
-        <li>Navigate to the project directory: <code>cd your-repo-directory</code></li>
-        <li>Install dependencies: <code>npm install</code></li>
-        <li>Start the development server: <code>npm start</code></li>
+        <li className="mb-1">Clone the repository: <code className="bg-gray-800 p-0.5 text-xs rounded-md">git clone https://github.com/your-repo-link.git</code></li>
+        <li className="mb-1">Navigate to the project directory: <code className="bg-gray-800 p-0.5 text-xs rounded-md">cd your-repo-directory</code></li>
+        <li className="mb-1">Install dependencies: <code className="bg-gray-800 p-0.5 text-xs rounded-md">npm install</code></li>
+        <li className="mb-1">Start the development server: <code className="bg-gray-800 p-0.5 text-xs rounded-md">npm start</code></li>
       </ol>
       <h3 className="text-lg font-semibold mb-2">Option 2: Download ZIP with Dependencies</h3>
       <ol className="list-decimal ml-5 mb-4 text-sm">
-        <li>Download the bundled project from our GitHub repository: <a href="https://github.com/your-repo-link/releases/download/v1.0.0/project-bundle.zip" className="text-blue-500">Download ZIP</a></li>
-        <li>Unzip the downloaded file.</li>
-        <li>Navigate to the project directory.</li>
-        <li>Start the development server: <code>npm start</code></li>
+        <li className="mb-1">Download the bundled project from our GitHub repository: <a href="https://github.com/your-repo-link/releases/download/v1.0.0/project-bundle.zip" className="text-blue-500">Download ZIP</a></li>
+        <li className="mb-1">Unzip the downloaded file.</li>
+        <li className="mb-1">Navigate to the project directory.</li>
+        <li className="mb-1">Start the development server: <code className="bg-gray-800 p-0.5 text-xs rounded-md">npm start</code></li>
       </ol>
       <h2 className="text-xl font-bold mb-2">What's Included</h2>
       <ul className="list-disc ml-5 text-sm">
-        <li>Basic project structure</li>
-        <li>Essential configurations and scripts</li>
-        <li>Pre-configured ESLint and Prettier setup</li>
-        <li>Sample components and CSS for quick start</li>
-        <li>All necessary dependencies pre-installed (for the ZIP option)</li>
+        <li className="mb-1">Basic project structure</li>
+        <li className="mb-1">Essential configurations and scripts</li>
+        <li className="mb-1">Pre-configured ESLint and Prettier setup</li>
+        <li className="mb-1">Sample components and CSS for quick start</li>
+        <li className="mb-1">All necessary dependencies pre-installed (for the ZIP option)</li>
       </ul>
     </div>
   );
