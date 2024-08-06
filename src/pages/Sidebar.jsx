@@ -8,7 +8,7 @@ const SidebarMenu = () => {
   };
 
   return (
-    <ul className="space-y-2 pl-16 pt-2 h-screen w-80 border-r">
+    <ul className="space-y-2 pl-16 pt-2 h-screen w-80 border-r border-gray-900">
       {/* Frontend Section */}
       <li>
         <a
