@@ -5,6 +5,7 @@ import Intro from "./Intro";
 import ReactWithCreateReactApp from "../components/SidebarPages.jsx/ReactWithCreateReactApp";
 import CreateReactAppWithTailwind from "../components/SidebarPages.jsx/CreateReactAppWithTailwind";
 import Footer from "../components/Footer";
+import ReactWithVite from "../components/SidebarPages.jsx/ReactWithVite";
 
 
 const Stack = () => {
@@ -18,6 +19,8 @@ const Stack = () => {
         return <ReactWithCreateReactApp />;
       case "react-with-create-react-app-tailwind":
         return <CreateReactAppWithTailwind />;
+      case "react-with-vite":
+        return <ReactWithVite />;
       default:
         return <Intro />;
     }
