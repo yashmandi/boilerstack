@@ -45,16 +45,21 @@ const SidebarMenu = ({ setActiveTab }) => {
             </li>
             <li>
               <button
-                onClick={() => setActiveTab("react-with-create-react-app-tailwind")}
+                onClick={() =>
+                  setActiveTab("react-with-create-react-app-tailwind")
+                }
                 className="text-gray-300 mb-1 text-left hover:text-white"
               >
                 Create React App with Tailwind
               </button>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <button
+                onClick={() => setActiveTab("react-with-vite")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
                 React with Vite
-              </a>
+              </button>
             </li>
             <li>
               <a href="#" className="text-gray-300 hover:text-white">

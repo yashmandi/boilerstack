@@ -4,6 +4,7 @@ import Sidebar from "./Sidebar";
 import Intro from "./Intro";
 import ReactWithCreateReactApp from "../components/SidebarPages.jsx/ReactWithCreateReactApp";
 import CreateReactAppWithTailwind from "../components/SidebarPages.jsx/CreateReactAppWithTailwind";
+import Footer from "../components/Footer";
 
 
 const Stack = () => {
