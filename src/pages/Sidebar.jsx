@@ -101,9 +101,12 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <button
+                onClick={() => setActiveTab("vue-3-with-vue-cli")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
                 Vue 3 with Vue CLI
-              </a>
+              </button>
             </li>
             <li>
               <a href="#" className="text-gray-300 hover:text-white">
