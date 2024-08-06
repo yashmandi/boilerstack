@@ -109,9 +109,12 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
-                Vue with Tailwind CSS
-              </a>
+            <button
+                onClick={() => setActiveTab("vue-with-tailwind")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
+                Vue with Tailwind
+              </button>
             </li>
           </ul>
         )}

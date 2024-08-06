@@ -10,6 +10,7 @@ import ReactViteWithTailwind from "../components/SidebarPages.jsx/ReactViteWithT
 import ReactViteWithRedux from "../components/SidebarPages.jsx/ReactViteWithRedux";
 import Vue3WithVite from "../components/SidebarPages.jsx/Vue3WithVite";
 import Vue3WithVueCli from "../components/SidebarPages.jsx/Vue3WithVueCli";
+import VueWithTailwind from "../components/SidebarPages.jsx/VueWithTailwind";
 
 
 const Stack = () => {
@@ -33,6 +34,8 @@ const Stack = () => {
         return <Vue3WithVite />;
       case "vue-3-with-vue-cli":
         return <Vue3WithVueCli />;
+      case "vue-with-tailwind":
+        return <VueWithTailwind />;
       default:
         return <Intro />;
     }
