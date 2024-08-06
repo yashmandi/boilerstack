@@ -15,7 +15,7 @@ const Footer = () => {
             </h2>
             <p className="text-sm mt-2">
               A product by{" "}
-              <a href="" className="text-blue-800 text-sm hover:underline transition-all">
+              <a href="" className="text-blue-500 text-sm hover:underline transition-all">
                 BoilerStack
               </a>
             </p>
@@ -23,7 +23,7 @@ const Footer = () => {
               Building in public at{" "}
               <a
                 href="https://twitter.com/yashmandi"
-                className="text-blue-800 text-sm hover:underline transition-all"
+                className="text-blue-500 text-sm hover:underline transition-all"
               >
                 @yashmandi
               </a>
