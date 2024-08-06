@@ -3,6 +3,7 @@ import NavbarComponent from "../components/NavbarComponent";
 import Sidebar from "./Sidebar";
 import Intro from "./Intro";
 import ReactWithCreateReactApp from "../components/SidebarPages.jsx/ReactWithCreateReactApp";
+import CreateReactAppWithTailwind from "../components/SidebarPages.jsx/CreateReactAppWithTailwind";
 
 
 const Stack = () => {
@@ -14,12 +15,8 @@ const Stack = () => {
         return <Intro />;
       case "react-with-create-react-app":
         return <ReactWithCreateReactApp />;
-      // case "react-with-vite":
-      //   return <ReactWithVite />;
-      // case "react-with-tailwind":
-      //   return <ReactWithTailwind />;
-      // case "react-with-redux":
-      //   return <ReactWithRedux />;
+      case "react-with-create-react-app-tailwind":
+        return <CreateReactAppWithTailwind />;
       default:
         return <Intro />;
     }

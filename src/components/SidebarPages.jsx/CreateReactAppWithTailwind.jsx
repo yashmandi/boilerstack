@@ -1,17 +1,14 @@
 import React from "react";
 
-const ReactWithCreateReactApp = () => {
+const CreateReactAppWithTailwind = () => {
   return (
     <div className="p-6 text-white pr-64">
-      <h1 className="text-2xl font-bold mb-4">React with Create React App</h1>
-      <p className="mb-4 text-sm">
-        Create React App is an officially supported way to create single-page
-        React applications. It offers a modern build setup with no
-        configuration.
-      </p>
+      <h1 className="text-2xl font-bold mb-4">
+        Create React App with Tailwind
+      </h1>
       <p className="mb-4 text-sm">
         This boilerplate includes a basic setup with all the necessary
-        configurations to get you started with a React project using Create
+        configurations of React + Tailwind to get you started with a React project using Create
         React App.
       </p>
       <h2 className="text-xl font-bold mt-8 ">
@@ -100,4 +97,4 @@ const ReactWithCreateReactApp = () => {
   );
 };
 
-export default ReactWithCreateReactApp;
+export default CreateReactAppWithTailwind;
