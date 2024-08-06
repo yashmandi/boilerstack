@@ -62,14 +62,20 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
-                React with Tailwind CSS
-              </a>
+              <button
+                onClick={() => setActiveTab("react-vite-with-tailwind")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
+                React Vite with Tailwind
+              </button>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
-                React with Redux
-              </a>
+              <button
+                onClick={() => setActiveTab("react-vite-with-redux")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
+                React Vite with Redux
+              </button>
             </li>
           </ul>
         )}

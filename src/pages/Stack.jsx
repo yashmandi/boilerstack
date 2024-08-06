@@ -6,6 +6,8 @@ import ReactWithCreateReactApp from "../components/SidebarPages.jsx/ReactWithCre
 import CreateReactAppWithTailwind from "../components/SidebarPages.jsx/CreateReactAppWithTailwind";
 import Footer from "../components/Footer";
 import ReactWithVite from "../components/SidebarPages.jsx/ReactWithVite";
+import ReactViteWithTailwind from "../components/SidebarPages.jsx/ReactViteWithTailwind";
+import ReactViteWithRedux from "../components/SidebarPages.jsx/ReactViteWithRedux";
 
 
 const Stack = () => {
@@ -21,6 +23,10 @@ const Stack = () => {
         return <CreateReactAppWithTailwind />;
       case "react-with-vite":
         return <ReactWithVite />;
+      case "react-vite-with-tailwind":
+        return <ReactViteWithTailwind />;
+      case "react-vite-with-redux":
+        return <ReactViteWithRedux />;
       default:
         return <Intro />;
     }
