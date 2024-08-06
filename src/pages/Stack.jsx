@@ -27,8 +27,8 @@ const Stack = () => {
 
   return (
     <div className="relative">
-      <NavbarComponent />
-      <Sidebar setActiveTab={setActiveTab} />
+      <NavbarComponent className="fixed top-0 w-full" />
+      <Sidebar setActiveTab={setActiveTab} className="fixed top-20 left-0 h-full" />
       <div className="absolute top-20 left-80 right-0 z-10 bg-lightblue p-5">
         {renderContent()}
       </div>
