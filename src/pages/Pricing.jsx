@@ -160,7 +160,7 @@ const Pricing = () => {
               <p className="mt-2 sm:mt-4">
                 <strong className="text-3xl font-bold text-white sm:text-4xl">
                   {" "}
-                  20${" "}
+                  7${" "}
                 </strong>
 
                 <span className="text-sm font-medium text-white">
