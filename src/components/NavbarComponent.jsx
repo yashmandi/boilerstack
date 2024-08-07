@@ -20,9 +20,11 @@ const NavbarComponent = () => {
         </div>
         <div className="flex-grow flex justify-between items-center p-4 pl-14">
           <div className="flex">
-            <p className="text-sm hover:text-gray-100 mr-5 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
-              Docs
-            </p>
+            <Link to="/docs">
+              <p className="text-sm hover:text-gray-100 mr-5 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
+                Docs
+              </p>
+            </Link>
             <p className="text-sm hover:text-gray-100 mr-5 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
               Pricing
             </p>
