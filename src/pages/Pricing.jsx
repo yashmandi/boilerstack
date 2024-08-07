@@ -1,11 +1,11 @@
 import React from "react";
 import NavbarComponent from "../components/NavbarComponent";
-
+import Footer from "../components/Footer";
 const Pricing = () => {
   return (
     <div>
       <NavbarComponent />
-      <div className="max-w-screen-xl px-4 py-8 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
+      <div className="max-w-screen-xl px-4 py-8 pl-1  sm:px-6 sm:py-12 lg:px-8 lg:py-16">
         <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8">
           <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm">
             <div className="p-6 sm:px-8">
@@ -467,6 +467,7 @@ const Pricing = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </div>
   );
 };
