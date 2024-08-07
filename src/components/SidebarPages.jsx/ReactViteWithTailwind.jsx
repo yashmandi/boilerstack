@@ -1,13 +1,13 @@
-import React from 'react';
+import React from "react";
 
 const ReactViteWithTailwind = () => {
   return (
     <div className="p-6 text-white pr-64">
-      <h1 className="text-2xl font-bold mb-4">
-        React with Vite and Tailwind
-      </h1>
+      <h1 className="text-2xl font-bold mb-4">React with Vite and Tailwind</h1>
       <p className="mb-4 text-sm">
-        This boilerplate sets up a React project using Vite for fast builds and Tailwind CSS for modern styling, providing a streamlined development experience.
+        This boilerplate sets up a React project using Vite for fast builds and
+        Tailwind CSS for modern styling, providing a streamlined development
+        experience.
       </p>
       <h2 className="text-xl font-bold mt-8">
         Getting Access to the Boilerplate
@@ -43,7 +43,7 @@ const ReactViteWithTailwind = () => {
         </li>
       </ol>
       <a
-        href="https://github.com/your-repo-link"
+        href="https://github.com/yashmandi/react-vite-with-tailwind"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex justify-center text-sm mb-6 items-center py-2.5 px-3 text-base font-medium text-center text-white rounded-lg bg-primary-700 hover:bg-[#1b1b1b] bg-[#252525] dark:focus:ring-primary-900"
