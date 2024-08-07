@@ -14,7 +14,7 @@ const Section2 = () => {
           <p className="mb-1.5">+ 2 hrs managing user authentication</p>
           <p className="mb-1.5">+ 2 hrs dealing with deployment issues</p>
           <p className="mb-1.5">+ ∞ hrs debugging...</p>
-          <h1 className="text-xl font-bold mt-8">There's and easier way, <span className="hover:text-[#007BFF] hover:text-xl transition-all hover:cursor-pointer">BoilerStack</span>!</h1>
+          <h1 className="text-xl font-bold mt-8">There's an easier way, <span className="hover:text-[#007BFF] hover:text-xl transition-all hover:cursor-pointer">BoilerStack</span>!</h1>
 
         </div>
       </a>
