@@ -25,9 +25,11 @@ const NavbarComponent = () => {
                 Docs
               </p>
             </Link>
-            <p className="text-sm hover:text-gray-100 mr-5 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
-              Pricing
-            </p>
+            <Link to="/pricing">
+              <p className="text-sm hover:text-gray-100 mr-5 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
+                Pricing
+              </p>
+            </Link>
             <Link to="/about">
               <p className="text-sm hover:text-gray-100 cursor-pointer font-semibold p-1  text-gray-500 mt-1 transition-all">
                 About

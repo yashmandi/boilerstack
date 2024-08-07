@@ -1,7 +1,8 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-import Landing from './pages/Landing';
-import Stack from './pages/Stack';
-import About from './pages/About';
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Landing from "./pages/Landing";
+import Stack from "./pages/Stack";
+import About from "./pages/About";
+import Pricing from "./pages/Pricing";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <Route path="/" element={<Landing />} />
       <Route path="/docs/*" element={<Stack />} />
       <Route path="/about" element={<About />} />
+      <Route path="/pricing" element={<Pricing />} />
     </Routes>
   );
 }
