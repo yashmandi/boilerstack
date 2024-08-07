@@ -8,8 +8,8 @@ const CreateReactAppWithTailwind = () => {
       </h1>
       <p className="mb-4 text-sm">
         This boilerplate includes a basic setup with all the necessary
-        configurations of React + Tailwind to get you started with a React project using Create
-        React App.
+        configurations of React + Tailwind to get you started with a React
+        project using Create React App.
       </p>
       <h2 className="text-xl font-bold mt-8 ">
         Getting Access to the Boilerplate
@@ -46,7 +46,7 @@ const CreateReactAppWithTailwind = () => {
         </li>
       </ol>
       <a
-        href="https://github.com/your-repo-link"
+        href="https://github.com/yashmandi/create-react-app-with-tailwind"
         target="_blank"
         rel="noopener noreferrer"
         className="inline-flex justify-center text-sm mb-6 items-center py-2.5 px-3 text-base font-medium text-center text-white rounded-lg bg-primary-700  hover:bg-[#1b1b1b] bg-[#252525]  dark:focus:ring-primary-900"
