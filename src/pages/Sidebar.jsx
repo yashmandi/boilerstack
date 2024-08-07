@@ -36,12 +36,12 @@ const SidebarMenu = ({ setActiveTab }) => {
         {openSection === "react" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
             <li>
-              <button
+              {/* <button
                 onClick={() => setActiveTab("react-with-create-react-app")}
                 className="text-gray-300 mb-1 hover:text-white"
               >
                 React with Create React App
-              </button>
+              </button> */}
             </li>
             <li>
               <button
@@ -54,12 +54,12 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-              <button
+              {/* <button
                 onClick={() => setActiveTab("react-with-vite")}
                 className="text-gray-300 mb-1 hover:text-white"
               >
                 React with Vite
-              </button>
+              </button> */}
             </li>
             <li>
               <button
