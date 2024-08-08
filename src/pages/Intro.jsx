@@ -10,7 +10,7 @@ const Intro = () => {
           with BoilerStack. Simplify your development process with ready-to-use
           code snippets.
         </p>
-        <br />
+        <br />a
         <p>
           This is NOT just another template repository. It's a comprehensive
           collection of fully customizable boilerplates designed to jumpstart
