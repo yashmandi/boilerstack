@@ -53,7 +53,9 @@ const Pricing = () => {
                         d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
-                    <span className="text-white">10 users</span>
+                    <span className="text-white">
+                      Access to Basic Templates
+                    </span>
                   </li>
                   <li className="flex items-center gap-1">
                     <svg
@@ -70,7 +72,7 @@ const Pricing = () => {
                         d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
-                    <span className="text-white">2GB of storage</span>
+                    <span className="text-white">Standard Support</span>
                   </li>
                   <li className="flex items-center gap-1">
                     <svg
@@ -104,7 +106,7 @@ const Pricing = () => {
                         d="M6 18L18 6M6 6l12 12"
                       />
                     </svg>
-                    <span className="text-white">Help center access</span>
+                    <span className="text-white">Email Support</span>
                   </li>
                   <li className="flex items-center gap-1">
                     <svg
@@ -121,7 +123,7 @@ const Pricing = () => {
                         d="M6 18L18 6M6 6l12 12"
                       />
                     </svg>
-                    <span className="text-white">Phone support</span>
+                    <span className="text-white">Help Center Access</span>
                   </li>
                   <li className="flex items-center gap-1">
                     <svg
