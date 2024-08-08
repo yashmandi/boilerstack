@@ -2,7 +2,7 @@ import React from 'react';
 
 const ReactWithVite = () => {
   return (
-    <div className="pl-4 text-white pr-64">
+    <div className="pl-6 text-white pr-64">
       <h1 className="text-2xl font-bold mb-4">
         React with Vite
       </h1>

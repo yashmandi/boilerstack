@@ -2,7 +2,7 @@ import React from "react";
 
 const ReactWithCreateReactApp = () => {
   return (
-    <div className="pl-4 text-white pr-64">
+    <div className="pl-6 text-white pr-64">
       <h1 className="text-2xl font-bold mb-4">React with Create React App</h1>
       <p className="mb-4 text-sm">
         Create React App is an officially supported way to create single-page

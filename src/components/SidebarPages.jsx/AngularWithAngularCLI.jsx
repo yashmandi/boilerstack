@@ -2,7 +2,7 @@ import React from 'react';
 
 const AngularWithAngularCLI = () => {
   return (
-    <div className="pl-4 text-white pr-64">
+    <div className="pl-6 text-white pr-64">
       <h1 className="text-2xl font-bold mb-4">
         Angular with Angular CLI
       </h1>

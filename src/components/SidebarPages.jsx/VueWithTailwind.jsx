@@ -2,7 +2,7 @@ import React from "react";
 
 const VueWithTailwind = () => {
   return (
-    <div className="pl-4 text-white pr-64">
+    <div className="pl-6 text-white pr-64">
       <h1 className="text-2xl font-bold mb-4">Vue with Tailwind</h1>
       <p className="mb-4 text-sm">
         This boilerplate provides a setup with Vue and Tailwind CSS, giving you
