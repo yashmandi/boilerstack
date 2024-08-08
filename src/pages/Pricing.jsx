@@ -9,7 +9,7 @@ const Pricing = () => {
 
       <main className="flex-grow flex items-center justify-center bg-[#0d0d0d]">
         <div className="max-w-screen-xl px-4 py-8 pl-1 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
-          <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-3 md:gap-8">
+          <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-2 md:gap-8">
             {/* Starter Plan */}
             <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-[#151515]">
               <div className="p-6 sm:px-8">
@@ -279,7 +279,7 @@ const Pricing = () => {
             </div>
 
             {/* Enterprise Plan */}
-            <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-[#151515]">
+            {/* <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-[#151515]">
               <div className="p-6 sm:px-8">
                 <h2 className="text-lg font-medium text-white">
                   Enterprise
@@ -412,7 +412,7 @@ const Pricing = () => {
                   </li>
                 </ul>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </main>
