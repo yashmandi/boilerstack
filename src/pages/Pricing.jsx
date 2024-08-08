@@ -11,7 +11,7 @@ const Pricing = () => {
         <div className="max-w-screen-xl px-4 py-8 pl-1 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-2 md:gap-8">
             {/* Starter Plan */}
-            <div className="divide-y divide-gray-200 rounded-2xl  shadow-lg  transition-all bg-[#151515] transition-transform transform  ">
+            <div className="divide-y divide-gray-200 rounded-2xl  shadow-lg  transition-all bg-[#151515] transition-transform transform hover:scale-105 ">
               <div className="p-6 sm:px-8">
                 <h2 className="text-lg font-bold text-white">
                   Starter
@@ -147,7 +147,7 @@ const Pricing = () => {
             </div>
 
             {/* Pro Plan */}
-            <div className="divide-y divide-gray-200 rounded-2xl   transition-all bg-[#151515] transition-transform transform scale-105 ">
+            <div className="divide-y divide-gray-200 rounded-2xl   transition-all bg-[#151515] transition-transform transform hover:scale-105 ">
               <div className="p-6 sm:px-8">
                 <h2 className="text-xl font-bold text-white">
                   Pro
@@ -160,7 +160,7 @@ const Pricing = () => {
                   <strong className="text-3xl font-bold text-white sm:text-4xl">
                     30$
                   </strong>
-                  <span className="text-sm font-medium text-white">/lifetime</span>
+                  <span className="text-sm font-medium text-white">/life</span>
                 </p>
                 <a
                   className="mt-4 block rounded-md transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff] sm:mt-6"
