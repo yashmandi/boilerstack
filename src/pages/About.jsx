@@ -4,10 +4,10 @@ import Footer from "../components/Footer";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[#0d0d0d] text-white">
+    <div className="min-h-screen bg-[#0d0d0d] text-white ">
       <NavbarComponent />
-      <div className="p-10 mx-auto max-w-5xl">
-        <h1 className="text-3xl font-bold mb-6">About BoilerStack</h1>
+      <div className="p-8 mx-auto max-w-5xl pl-28">
+        <h1 className="text-2xl font-bold mb-6">About BoilerStack</h1>
         <p className="mb-4 text-sm">
           BoilerStack is a comprehensive collection of boilerplates for various
           web development frameworks and libraries. The goal is to provide
