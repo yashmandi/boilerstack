@@ -2,15 +2,15 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div className="pl-4">
-      <h1 className="text-white pt-6 font-bold text-2xl">Introduction</h1>
+    <div className="pl-4 pr-64">
+      <h1 className="text-white font-bold text-2xl">Introduction</h1>
       <div className="text-white mt-8 text-sm">
         <p>
           Easily access and generate customizable templates for any tech stack
           with BoilerStack. Simplify your development process with ready-to-use
           code snippets.
         </p>
-        <br />a
+        <br />
         <p>
           This is NOT just another template repository. It's a comprehensive
           collection of fully customizable boilerplates designed to jumpstart

@@ -9,7 +9,7 @@ const SidebarMenu = ({ setActiveTab }) => {
   };
 
   return (
-    <ul className="space-y-2  pl-16 pt-10 h-  w-80  border-gray-900">
+    <ul className="space-y-2  pl-16 pt-4 w-80  border-gray-900">
       {/* Frontend Section */}
       <li>
         <button

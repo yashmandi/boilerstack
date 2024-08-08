@@ -1,13 +1,12 @@
-import React from 'react';
+import React from "react";
 
 const VueWithTailwind = () => {
   return (
-    <div className="p-6 text-white pr-64">
-      <h1 className="text-2xl font-bold mb-4">
-        Vue with Tailwind
-      </h1>
+    <div className="pl-4 text-white pr-64">
+      <h1 className="text-2xl font-bold mb-4">Vue with Tailwind</h1>
       <p className="mb-4 text-sm">
-        This boilerplate provides a setup with Vue and Tailwind CSS, giving you a great starting point for a Vue project with Tailwind integration.
+        This boilerplate provides a setup with Vue and Tailwind CSS, giving you
+        a great starting point for a Vue project with Tailwind integration.
       </p>
       <h2 className="text-xl font-bold mt-8">
         Getting Access to the Boilerplate

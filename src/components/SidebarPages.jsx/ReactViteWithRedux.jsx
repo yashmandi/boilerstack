@@ -2,7 +2,7 @@ import React from "react";
 
 const ReactViteWithRedux = () => {
   return (
-    <div className="p-6 text-white pr-64">
+    <div className="pl-4 text-white pr-64">
       <h1 className="text-2xl font-bold mb-4">React with Vite and Redux</h1>
       <p className="mb-4 text-sm">
         This boilerplate sets up a React project using Vite for fast builds and

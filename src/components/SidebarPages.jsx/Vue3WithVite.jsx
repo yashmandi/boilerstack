@@ -2,7 +2,7 @@ import React from "react";
 
 const Vue3WithVite = () => {
   return (
-    <div className="p-6 text-white pr-64">
+    <div className="pl-4 text-white pr-64">
       <h1 className="text-2xl font-bold mb-4">Vue 3 with Vite</h1>
       <p className="mb-4 text-sm">
         This boilerplate sets up a Vue 3 project using Vite for fast builds,
