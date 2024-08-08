@@ -189,7 +189,7 @@ const Pricing = () => {
                         d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
-                    <span className="text-white">20 users</span>
+                    <span className="text-white">Basic + Advanced Templates</span>
                   </li>
                   <li className="flex items-center gap-1">
                     <svg
@@ -257,7 +257,7 @@ const Pricing = () => {
                         d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
-                    <span className="text-white">Help center access</span>
+                    <span className="text-white">Premium Integrations</span>
                   </li>
                   <li className="flex items-center gap-1">
                     <svg
