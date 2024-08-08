@@ -147,12 +147,12 @@ const Pricing = () => {
             {/* Pro Plan */}
             <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-[#151515]">
               <div className="p-6 sm:px-8">
-                <h2 className="text-lg font-medium text-white">
+                <h2 className="text-xl font-bold text-white">
                   Pro
                   <span className="sr-only">Plan</span>
                 </h2>
-                <p className="mt-2 text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <p className="mt-2 text-sm text-white">
+                  Unlock advanced tools and premium support.
                 </p>
                 <p className="mt-2 sm:mt-4">
                   <strong className="text-3xl font-bold text-white sm:text-4xl">
