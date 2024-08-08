@@ -13,12 +13,12 @@ const Pricing = () => {
             {/* Starter Plan */}
             <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-[#151515]">
               <div className="p-6 sm:px-8">
-                <h2 className="text-lg font-medium text-white">
+                <h2 className="text-lg font-bold text-white">
                   Starter
                   <span className="sr-only">Plan</span>
                 </h2>
-                <p className="mt-2 text-white">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                <p className="mt-2 text-sm text-white">
+                  Kickstart your projects with essential features
                 </p>
                 <p className="mt-2 sm:mt-4">
                   <strong className="text-3xl font-bold text-white sm:text-4xl">
@@ -406,7 +406,9 @@ const Pricing = () => {
                         d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
-                    <span className="text-white">Priority community access</span>
+                    <span className="text-white">
+                      Priority community access
+                    </span>
                   </li>
                 </ul>
               </div>
