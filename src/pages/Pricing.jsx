@@ -11,7 +11,7 @@ const Pricing = () => {
         <div className="max-w-screen-xl px-4 py-8 pl-1 sm:px-6 sm:py-12 lg:px-8 lg:py-16">
           <div className="grid grid-cols-2 gap-4 sm:grid-cols-2 sm:items-stretch md:grid-cols-2 md:gap-8">
             {/* Starter Plan */}
-            <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-[#151515]">
+            <div className="divide-y divide-gray-200 rounded-2xl  shadow-lg  transition-all bg-[#151515] transition-transform transform hover:scale-105 ">
               <div className="p-6 sm:px-8">
                 <h2 className="text-lg font-bold text-white">
                   Starter
@@ -147,7 +147,7 @@ const Pricing = () => {
             </div>
 
             {/* Pro Plan */}
-            <div className="divide-y divide-gray-200 rounded-2xl border border-gray-200 shadow-sm bg-[#151515]">
+            <div className="divide-y divide-gray-200 rounded-2xl   transition-all bg-[#151515] transition-transform transform hover:scale-105 ">
               <div className="p-6 sm:px-8">
                 <h2 className="text-xl font-bold text-white">
                   Pro
@@ -163,7 +163,7 @@ const Pricing = () => {
                   <span className="text-sm font-medium text-white">/month</span>
                 </p>
                 <a
-                  className="mt-4 block rounded-md transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff]  sm:mt-6"
+                  className="mt-4 block rounded-md transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff] sm:mt-6"
                   href="#"
                 >
                   Get Started
@@ -189,7 +189,9 @@ const Pricing = () => {
                         d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
-                    <span className="text-white">Basic + Advanced Templates</span>
+                    <span className="text-white">
+                      Basic + Advanced Templates
+                    </span>
                   </li>
                   <li className="flex items-center gap-1">
                     <svg
