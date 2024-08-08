@@ -12,7 +12,7 @@ const Section = () => {
               <h3 className="mt-4 text-xl font-bold sm:text-2xl">
                 Why BoilerStack?
               </h3>
-              <p className="mt-6 text-md w-[80%] justify-center ml-24 font-normal text-white">
+              <p className="mt-6 text-md w-[80%] justify-center ml-24 pl-28 pr-20 font-normal text-white">
                 Because who has time to start coding from scratch? Instantly
                 generate the perfect templates for your project, so you can
                 pretend you did all the hard work.
