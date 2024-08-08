@@ -240,6 +240,23 @@ const Pricing = () => {
                         d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
+                    <span className="text-white">Priority Support</span>
+                  </li>
+                  <li className="flex items-center gap-1">
+                    <svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      fill="none"
+                      viewBox="0 0 24 24"
+                      strokeWidth="1.5"
+                      stroke="currentColor"
+                      className="size-5 text-green-500"
+                    >
+                      <path
+                        strokeLinecap="round"
+                        strokeLinejoin="round"
+                        d="M4.5 12.75l6 6 9-13.5"
+                      />
+                    </svg>
                     <span className="text-white">Help center access</span>
                   </li>
                   <li className="flex items-center gap-1">
@@ -249,32 +266,15 @@ const Pricing = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="size-5 text-red-700"
+                      className="size-5 text-green-500"
                     >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        d="M6 18L18 6M6 6l12 12"
+                        d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
-                    <span className="text-white">Phone support</span>
-                  </li>
-                  <li className="flex items-center gap-1">
-                    <svg
-                      xmlns="http://www.w3.org/2000/svg"
-                      fill="none"
-                      viewBox="0 0 24 24"
-                      strokeWidth="1.5"
-                      stroke="currentColor"
-                      className="size-5 text-red-700"
-                    >
-                      <path
-                        strokeLinecap="round"
-                        strokeLinejoin="round"
-                        d="M6 18L18 6M6 6l12 12"
-                      />
-                    </svg>
-                    <span className="text-white">Community access</span>
+                    <span className="text-white">Help center access</span>
                   </li>
                 </ul>
               </div>
