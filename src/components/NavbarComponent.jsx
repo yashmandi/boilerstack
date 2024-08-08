@@ -8,7 +8,7 @@ const NavbarComponent = () => {
       {/* <div className="absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-gray-800 to-gray-300"></div> */}
       <div className="flex flex-row items-center ">
         <div className="navbar pl-20">
-          <h1 className="text-lg flex  cursor-default px-2 py-1 rounded-lg hover:bg-gray-900 transition-all font-bold text-white">
+          <h1 className="text-lg flex  cursor-default px-2 py-1 rounded-lg hover:bg-[#181818] transition-all font-bold text-white">
             <Link to="/">
               <div className="flex items-center">
                 <img src={BS_Logo} className="h-8 w-8 mr-1" alt="" />
