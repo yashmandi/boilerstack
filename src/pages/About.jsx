@@ -14,7 +14,7 @@ const About = () => {
           developers with a starting point for their projects, reducing the
           initial setup time and allowing them to focus on building features.
         </p>
-        <h2 className="text-2xl font-bold mt-6 mb-4">Project Goals</h2>
+        <h2 className="text-xl font-bold mt-6 mb-4">Project Goals</h2>
         <ul className="list-disc list-inside ml-4 text-sm">
           <li className="mb-2">
             Offer a variety of boilerplate projects for different tech stacks.
@@ -32,7 +32,7 @@ const About = () => {
             developers.
           </li>
         </ul>
-        <h2 className="text-2xl font-bold mt-6 mb-4">Features</h2>
+        <h2 className="text-xl font-bold mt-6 mb-4">Features</h2>
         <ul className="list-disc list-inside ml-4 text-sm">
           <li className="mb-2">
             Ready-to-use boilerplates for React, Vue, Angular, and more.
@@ -48,7 +48,7 @@ const About = () => {
             with dependencies.
           </li>
         </ul>
-        <h2 className="text-2xl font-bold mt-6 mb-4">Technologies Used</h2>
+        <h2 className="text-xl font-bold mt-6 mb-4">Technologies Used</h2>
         <ul className="list-disc list-inside ml-4 text-sm">
           <li className="mb-2">React</li>
           <li className="mb-2">Vue</li>
@@ -59,7 +59,7 @@ const About = () => {
           <li className="mb-2">Angular CLI</li>
           <li className="mb-2">ESLint and Prettier</li>
         </ul>
-        <h2 className="text-2xl font-bold mt-6 mb-4">Contact</h2>
+        <h2 className="text-xl font-bold mt-6 mb-4">Contact</h2>
         <p className="mb-4 text-sm">
           For any questions or feedback, feel free to reach out to us via our{" "}
           <a href="https://github.com/your-repo-link" className="text-blue-500">
