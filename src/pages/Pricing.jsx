@@ -27,7 +27,7 @@ const Pricing = () => {
                   <span className="text-sm font-medium text-white">/month</span>
                 </p>
                 <a
-                  className="mt-4 block rounded transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff] focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                  className="mt-4 block rounded-md transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff]  sm:mt-6"
                   href="#"
                 >
                   Get Started
@@ -161,7 +161,7 @@ const Pricing = () => {
                   <span className="text-sm font-medium text-white">/month</span>
                 </p>
                 <a
-                  className="mt-4 block rounded transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff] focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                  className="mt-4 block rounded-md transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff]  sm:mt-6"
                   href="#"
                 >
                   Get Started
@@ -295,7 +295,7 @@ const Pricing = () => {
                   <span className="text-sm font-medium text-white">/month</span>
                 </p>
                 <a
-                  className="mt-4 block rounded transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff] focus:outline-none focus:ring active:text-indigo-500 sm:mt-6"
+                  className="mt-4 block rounded-md transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff]  sm:mt-6"
                   href="#"
                 >
                   Get Started
