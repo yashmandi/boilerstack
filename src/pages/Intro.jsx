@@ -2,8 +2,8 @@ import React from "react";
 
 const Intro = () => {
   return (
-    <div>
-      <h1 className="text-white font-bold text-2xl">Introduction</h1>
+    <div className="pl-4">
+      <h1 className="text-white pt-6 font-bold text-2xl">Introduction</h1>
       <div className="text-white mt-8 text-sm">
         <p>
           Easily access and generate customizable templates for any tech stack
