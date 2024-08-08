@@ -17,7 +17,7 @@ const SidebarMenu = ({ setActiveTab }) => {
           onClick={() => setActiveTab("intro")}
           className="flex items-start justify-start text-center  font-extrabold  rounded-lg text-gray-400  text-white bg-[#0d0d0d] "
         >
-          <span className="text-lg pt-4 pl-8 mb-2">Introduction</span>
+          <span className="text-lg pt-4 pl-8">Introduction</span>
         </button>
         <a
           href="#"
