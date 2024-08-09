@@ -1,24 +1,21 @@
+// backend/index.js
+
 const express = require('express');
-const Razorpay = require('razorpay');
-const router = express.Router();
+const bodyParser = require('body-parser');
+const razorpayRoutes = require('./routes/razorpayRoutes');
+const verifyPayment = require('./routes/verifyPayment');
 
-const instance = new Razorpay({
-    key_id: 'YOUR_KEY_ID',
-    key_secret: 'YOUR_SECRET_KEY'
-});
+const app = express();
 
-router.post('/create-order', async (req, res) => {
-    const options = {
-        amount: req.body.amount * 100, // Amount in paise
-        currency: 'INR',
-        receipt: `receipt_${Date.now()}`,
-    };
-    try {
-        const order = await instance.orders.create(options);
-        res.status(200).json(order);
-    } catch (error) {
-        res.status(500).json({ message: error.message });
-    }
-});
+// Middleware
+app.use(bodyParser.json());
 
-module.exports = router;
+// Razorpay Routes
+app.use('/api/razorpay', razorpayRoutes);
+
+// Payment Verification Route
+app.use('/api/razorpay', verifyPayment);
+
+// Server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => console.log(`Server running on port ${PORT}`));
