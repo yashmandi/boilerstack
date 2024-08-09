@@ -158,9 +158,9 @@ const Pricing = () => {
                 </p>
                 <p className="mt-2 sm:mt-4">
                   <strong className="text-3xl font-bold text-white sm:text-4xl">
-                    30$
+                    12$
                   </strong>
-                  <span className="text-sm font-medium text-white">/life</span>
+                  <span className="text-sm font-medium text-white">/lifetime</span>
                 </p>
                 <a
                   className="mt-4 block rounded-md transition-all bg-[#202020] px-12 py-3 text-center text-sm font-medium text-white hover:bg-[#0d0d0d] hover:text-[#ffffff] sm:mt-6"

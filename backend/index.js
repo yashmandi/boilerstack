@@ -1,5 +1,3 @@
-// backend/index.js
-
 const express = require('express');
 const bodyParser = require('body-parser');
 const razorpayRoutes = require('./routes/razorpayRoutes');
