@@ -8,6 +8,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { FaHtml5 } from "react-icons/fa";
 import { SiVite } from "react-icons/si";
 import { FaAngular } from "react-icons/fa";
+import { Link } from "react-router-dom";
 
 const Hero = () => {
   return (
