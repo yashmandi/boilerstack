@@ -50,24 +50,26 @@ const Hero = () => {
             Choose, customize, and launch your projects swiftly and efficiently
           </p>
           <div className="flex flex-col mb-8 lg:mb-16 space-y-4 sm:flex-row sm:justify-center sm:space-y-0 sm:space-x-4">
-            <a
-              href="#"
-              className="inline-flex justify-center text-sm items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 mb-14 hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900"
-            >
-              Browse Boilerplates
-              <svg
-                className="ml-2 -mr-1 w-5 h-5"
-                fill="currentColor"
-                viewBox="0 0 20 20"
-                xmlns="http://www.w3.org/2000/svg"
+            <Link to="/docs">
+              <a
+                href="#"
+                className="inline-flex justify-center text-sm items-center py-3 px-5 text-base font-medium text-center text-white rounded-lg bg-primary-700 mb-14 hover:bg-[#1f1f1f] bg-[#151515]  dark:focus:ring-primary-900"
               >
-                <path
-                  fill-rule="evenodd"
-                  d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
-                  clip-rule="evenodd"
-                ></path>
-              </svg>
-            </a>
+                Browse Boilerplates
+                <svg
+                  className="ml-2 -mr-1 w-5 h-5"
+                  fill="currentColor"
+                  viewBox="0 0 20 20"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    fill-rule="evenodd"
+                    d="M10.293 3.293a1 1 0 011.414 0l6 6a1 1 0 010 1.414l-6 6a1 1 0 01-1.414-1.414L14.586 11H3a1 1 0 110-2h11.586l-4.293-4.293a1 1 0 010-1.414z"
+                    clip-rule="evenodd"
+                  ></path>
+                </svg>
+              </a>
+            </Link>
           </div>
           {/* <div class="px-4 mx-auto text-center md:max-w-screen-md lg:max-w-screen-lg lg:px-36"> */}
           <div class="text-center ">
@@ -79,57 +81,49 @@ const Hero = () => {
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#61DAFB] dark:hover:text-gray-400"
               >
-                <FaReact 
-                className="h-10 w-24"/>
+                <FaReact className="h-10 w-24" />
               </a>
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#38B2AC] dark:hover:text-gray-400"
               >
-                <RiTailwindCssFill 
-                className="h-10 w-24"/>
+                <RiTailwindCssFill className="h-10 w-24" />
               </a>
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#3c3c3c] dark:hover:text-gray-400"
               >
-                <RiNextjsFill 
-                className="h-10 w-24"/>
+                <RiNextjsFill className="h-10 w-24" />
               </a>
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#F7DF1E] dark:hover:text-gray-400"
               >
-                <RiJavascriptFill 
-                className="h-12 w-24"/>
+                <RiJavascriptFill className="h-12 w-24" />
               </a>
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#3178C6] dark:hover:text-gray-400"
               >
-                <SiTypescript 
-                className="h-9 w-24"/>
+                <SiTypescript className="h-9 w-24" />
               </a>
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#646CFF] dark:hover:text-gray-400"
               >
-                <SiVite 
-                className="h-9 w-24"/>
+                <SiVite className="h-9 w-24" />
               </a>
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#DD0031] dark:hover:text-gray-400"
               >
-                <FaAngular 
-                className="h-9 w-24"/>
+                <FaAngular className="h-9 w-24" />
               </a>
               <a
                 href="#"
                 class="mr-5 mb-5 lg:mb-0 hover:text-[#E44D26] dark:hover:text-gray-400"
               >
-                <FaHtml5 
-                className="h-9 w-24"/>
+                <FaHtml5 className="h-9 w-24" />
               </a>
             </div>
           </div>
