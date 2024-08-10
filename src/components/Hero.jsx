@@ -13,7 +13,7 @@ import { Link } from "react-router-dom";
 const Hero = () => {
   return (
     <div>
-      <section className="mt-24">
+      <section className="mt-12 sm:mt-24">
         <div className="py-12 px-4 mx-auto max-w-screen-xl text-center lg:py-16 lg:px-12">
           <a
             href="#"
