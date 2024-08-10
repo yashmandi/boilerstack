@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import SearchBar from "./SearchBar";
 import BS_Logo from "../assets/BS_Logo.png";
 import { Link } from "react-router-dom";
-import { FiMenu, FiX } from "react-icons/fi"; // Icons for mobile menu
+import { FiMenu, FiX } from "react-icons/fi";
 
 const NavbarComponent = () => {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -12,7 +12,7 @@ const NavbarComponent = () => {
   };
 
   return (
-    <div className="sticky top-0 z-50 transition-all duration-300 ease-in-out backdrop-blur-lg">
+    <div className={`sticky top-0 z-50 backdrop-blur-lg transition-transform duration-300 ease-in-out ${menuOpen ? 'translate-y-0' : 'translate-y-0'}`}>
       <div className="flex flex-row items-center justify-between p-4">
         <div className="flex items-center pl-4 md:pl-20">
           <Link to="/" className="flex items-center text-lg font-bold text-white">
@@ -46,27 +46,30 @@ const NavbarComponent = () => {
 
         {/* Mobile Menu Button */}
         <div className="md:hidden flex items-center pr-4">
-          <button onClick={toggleMenu} className="text-white transition-all focus:outline-none">
+          <button
+            onClick={toggleMenu}
+            className={`text-white transition-transform duration-300 ease-in-out transform ${menuOpen ? 'rotate-180' : 'rotate-0'}`}
+          >
             {menuOpen ? <FiX size={24} /> : <FiMenu size={24} />}
           </button>
         </div>
       </div>
 
       {/* Mobile Menu */}
-      {menuOpen && (
-        <div className="md:hidden bg-[#171717] rounded-md text-white w-full flex flex-col items-start p-4 space-y-4">
-          <Link to="/docs" onClick={toggleMenu}>
-            Docs
-          </Link>
-          <Link to="/pricing" onClick={toggleMenu}>
-            Pricing
-          </Link>
-          <Link to="/about" onClick={toggleMenu}>
-            About
-          </Link>
-          {/* <SearchBar /> */}
-        </div>
-      )}
+      <div
+        className={`md:hidden bg-[#171717] rounded-md text-white w-full flex flex-col items-start p-4 space-y-4 transition-all duration-300 ease-in-out ${menuOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 overflow-hidden'}`}
+      >
+        <Link to="/docs" onClick={toggleMenu}>
+          Docs
+        </Link>
+        <Link to="/pricing" onClick={toggleMenu}>
+          Pricing
+        </Link>
+        <Link to="/about" onClick={toggleMenu}>
+          About
+        </Link>
+        {/* <SearchBar /> */}
+      </div>
     </div>
   );
 };
