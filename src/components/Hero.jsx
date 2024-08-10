@@ -1,6 +1,10 @@
 import React from "react";
 import { FaReact, FaHtml5, FaAngular } from "react-icons/fa";
-import { RiTailwindCssFill, RiNextjsFill, RiJavascriptFill } from "react-icons/ri";
+import {
+  RiTailwindCssFill,
+  RiNextjsFill,
+  RiJavascriptFill,
+} from "react-icons/ri";
 import { IoLogoJavascript } from "react-icons/io5";
 import { SiTypescript, SiVite } from "react-icons/si";
 import { Link } from "react-router-dom";
@@ -113,7 +117,7 @@ const Hero = () => {
               </a>
               <a
                 href="#"
-                className="mr-3 sm:mr-5 mb-5 lg:mb-0 hover:text-[#E44D26] dark:hover:text-gray-400"
+                className="mr-3 sm:mr-5 mb-5 lg:mb-0 hover:text-[#E44D26] dark:hover:text-gray-400 hidden sm:block"
               >
                 <FaHtml5 className="h-8 w-8 sm:h-9 sm:w-24" />
               </a>
