@@ -4,7 +4,7 @@ import BS_Logo from "../assets/BS_Logo.png";
 import { Link } from "react-router-dom";
 const NavbarComponent = () => {
   return (
-    <div className="sticky top-0 z-50 transition-all  duration-300 ease-in-out backdrop-blur-lg border-b border-gray-900">
+    <div className="sticky top-0 z-50 transition-all  duration-300 ease-in-out backdrop-blur-lg ">
       {/* <div className="absolute bottom-0 left-0 w-full h-[1px] bg-gradient-to-r from-gray-800 to-gray-300"></div> */}
       <div className="flex flex-row items-center ">
         <div className="navbar pl-20">
