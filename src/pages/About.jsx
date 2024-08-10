@@ -4,18 +4,18 @@ import Footer from "../components/Footer";
 
 const About = () => {
   return (
-    <div className="min-h-screen bg-[#0d0d0d] text-white ">
+    <div className="min-h-screen bg-[#0d0d0d] text-white">
       <NavbarComponent />
-      <div className="p-8 mx-auto max-w-5xl pl-28">
-        <h1 className="text-2xl font-bold mb-6">About BoilerStack</h1>
-        <p className="mb-4 text-sm">
+      <div className="p-8 mx-auto max-w-5xl">
+        <h1 className="text-2xl sm:text-3xl font-bold mb-6">About BoilerStack</h1>
+        <p className="mb-4 text-sm sm:text-base">
           BoilerStack is a comprehensive collection of boilerplates for various
           web development frameworks and libraries. The goal is to provide
           developers with a starting point for their projects, reducing the
           initial setup time and allowing them to focus on building features.
         </p>
-        <h2 className="text-xl font-bold mt-6 mb-4">Project Goals</h2>
-        <ul className="list-disc list-inside ml-4 text-sm">
+        <h2 className="text-xl sm:text-2xl font-bold mt-6 mb-4">Project Goals</h2>
+        <ul className="list-disc list-inside ml-4 text-sm sm:text-base">
           <li className="mb-2">
             Offer a variety of boilerplate projects for different tech stacks.
           </li>
@@ -32,8 +32,8 @@ const About = () => {
             developers.
           </li>
         </ul>
-        <h2 className="text-xl font-bold mt-6 mb-4">Features</h2>
-        <ul className="list-disc list-inside ml-4 text-sm">
+        <h2 className="text-xl sm:text-2xl font-bold mt-6 mb-4">Features</h2>
+        <ul className="list-disc list-inside ml-4 text-sm sm:text-base">
           <li className="mb-2">
             Ready-to-use boilerplates for React, Vue, Angular, and more.
           </li>
@@ -48,8 +48,8 @@ const About = () => {
             with dependencies.
           </li>
         </ul>
-        <h2 className="text-xl font-bold mt-6 mb-4">Technologies Used</h2>
-        <ul className="list-disc list-inside ml-4 text-sm">
+        <h2 className="text-xl sm:text-2xl font-bold mt-6 mb-4">Technologies Used</h2>
+        <ul className="list-disc list-inside ml-4 text-sm sm:text-base">
           <li className="mb-2">React</li>
           <li className="mb-2">Vue</li>
           <li className="mb-2">Angular</li>
@@ -59,8 +59,8 @@ const About = () => {
           <li className="mb-2">Angular CLI</li>
           <li className="mb-2">ESLint and Prettier</li>
         </ul>
-        <h2 className="text-xl font-bold mt-6 mb-4">Contact</h2>
-        <p className="mb-4 text-sm">
+        <h2 className="text-xl sm:text-2xl font-bold mt-6 mb-4">Contact</h2>
+        <p className="mb-4 text-sm sm:text-base">
           For any questions or feedback, feel free to reach out to us via our{" "}
           <a href="https://github.com/your-repo-link" className="text-blue-500">
             GitHub repository
