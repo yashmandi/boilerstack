@@ -232,9 +232,12 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
-                Express with TypeScript
-              </a>
+            <button
+                onClick={() => setActiveTab("express-with-typescript")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
+                Express with Typescript
+              </button>
             </li>
             <li>
               <a href="#" className="text-gray-300 hover:text-white">

@@ -17,6 +17,7 @@ import Sveltekit from "../components/SidebarPages.jsx/Sveltekit";
 import NextWithTailwind from "../components/SidebarPages.jsx/NextWithTailwind";
 import NextWithTypescript from "../components/SidebarPages.jsx/NextWithTypescript";
 import ExpressWithMongo from "../components/SidebarPages.jsx/ExpressWithMongo";
+import ExpressWithTypescript from "../components/SidebarPages.jsx/ExpressWithTypescript";
 
 
 const Stack = () => {
@@ -54,6 +55,8 @@ const Stack = () => {
         return <NextWithTypescript />;
       case "express-with-mongodb":
         return <ExpressWithMongo />;
+      case "express-with-typescript":
+        return <ExpressWithTypescript />;
       default:
         return <Intro />;
     }
