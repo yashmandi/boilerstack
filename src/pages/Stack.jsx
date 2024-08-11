@@ -43,6 +43,7 @@ const Stack = () => {
         return <Intro />;
     }
   };
+  
 
   return (
     <div className="relative">
