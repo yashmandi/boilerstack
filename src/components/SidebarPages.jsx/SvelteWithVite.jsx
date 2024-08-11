@@ -1,6 +1,6 @@
 import React from 'react'
 
-const SvelteWithCli = () => {
+const SvelteWithVite = () => {
   return (
     <div>
       
@@ -8,4 +8,4 @@ const SvelteWithCli = () => {
   )
 }
 
-export default SvelteWithCli
+export default SvelteWithVite
