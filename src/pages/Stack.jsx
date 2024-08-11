@@ -14,6 +14,7 @@ import VueWithTailwind from "../components/SidebarPages.jsx/VueWithTailwind";
 import AngularWithAngularCLI from "../components/SidebarPages.jsx/AngularWithAngularCLI";
 import SvelteWithVite from "../components/SidebarPages.jsx/SvelteWithVite";
 import Sveltekit from "../components/SidebarPages.jsx/Sveltekit";
+import NextWithTailwind from "../components/SidebarPages.jsx/NextWithTailwind";
 
 
 const Stack = () => {
@@ -45,6 +46,8 @@ const Stack = () => {
         return <SvelteWithVite />;
       case "sveltekit":
         return <Sveltekit />;
+      case "nextjs-with-tailwind":
+        return <NextWithTailwind />;
       default:
         return <Intro />;
     }
