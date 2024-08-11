@@ -13,6 +13,7 @@ import Vue3WithVueCli from "../components/SidebarPages.jsx/Vue3WithVueCli";
 import VueWithTailwind from "../components/SidebarPages.jsx/VueWithTailwind";
 import AngularWithAngularCLI from "../components/SidebarPages.jsx/AngularWithAngularCLI";
 import SvelteWithVite from "../components/SidebarPages.jsx/SvelteWithVite";
+import Sveltekit from "../components/SidebarPages.jsx/Sveltekit";
 
 
 const Stack = () => {
@@ -42,6 +43,8 @@ const Stack = () => {
         return <AngularWithAngularCLI />;
       case "svelte-with-vite":
         return <SvelteWithVite />;
+      case "sveltekit":
+        return <Sveltekit />;
       default:
         return <Intro />;
     }
