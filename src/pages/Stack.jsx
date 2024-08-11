@@ -20,7 +20,6 @@ import ExpressWithMongo from "../components/SidebarPages.jsx/ExpressWithMongo";
 import ExpressWithTypescript from "../components/SidebarPages.jsx/ExpressWithTypescript";
 import Koa from "../components/SidebarPages.jsx/Koa";
 
-
 const Stack = () => {
   const [activeTab, setActiveTab] = useState("intro");
 
@@ -65,14 +64,19 @@ const Stack = () => {
     }
   };
 
-
   return (
-    <div className="relative">
+    <div className="flex flex-col min-h-screen">
       <NavbarComponent className="fixed top-0 w-full" />
-      <Sidebar setActiveTab={setActiveTab} className="fixed top-20 left-0 h-full" />
-      <div className="absolute top-20 left-80 right-0 z-10 bg-lightblue p-5">
-        {renderContent()}
+      <div className="flex flex-1">
+        <Sidebar
+          setActiveTab={setActiveTab}
+          className="fixed top-20 left-0 h-full"
+        />
+        <main className="flex-1 ml- mt- p-5 bg-lightblue z-10">
+          {renderContent()}
+        </main>
       </div>
+      <Footer className="mt-auto" />
     </div>
   );
 };
