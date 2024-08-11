@@ -78,13 +78,13 @@ const Intro = () => {
           {faqs.map((faq, index) => (
             <div key={index} className="mb-4">
               <button
-                className="w-full text-left text-white font-semibold py-2 px-4 bg-[#141414] rounded-t-md focus:outline-none"
+                className="w-full text-left text-white text-sm font-semibold py-4 px-4 bg-[#0f0f0f] hover:bg-[#141414] transition-all rounded-t-md focus:outline-none"
                 onClick={() => toggleFAQ(index)}
               >
                 {faq.question}
               </button>
               {openIndex === index && (
-                <div className="bg-[#141414] text-white p-4 rounded-b-md text-sm">
+                <div className="bg-[#0f0f0f] hover:bg-[#141414] text-white p-4 rounded-b-md text-sm">
                   {faq.answer}
                 </div>
               )}
