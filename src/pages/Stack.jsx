@@ -12,6 +12,7 @@ import Vue3WithVite from "../components/SidebarPages.jsx/Vue3WithVite";
 import Vue3WithVueCli from "../components/SidebarPages.jsx/Vue3WithVueCli";
 import VueWithTailwind from "../components/SidebarPages.jsx/VueWithTailwind";
 import AngularWithAngularCLI from "../components/SidebarPages.jsx/AngularWithAngularCLI";
+import SvelteWithVite from "../components/SidebarPages.jsx/SvelteWithVite";
 
 
 const Stack = () => {
@@ -39,11 +40,13 @@ const Stack = () => {
         return <VueWithTailwind />;
       case "angular-with-angular-cli":
         return <AngularWithAngularCLI />;
+      case "svelte-with-vite":
+        return <SvelteWithVite />;
       default:
         return <Intro />;
     }
   };
-  
+
 
   return (
     <div className="relative">

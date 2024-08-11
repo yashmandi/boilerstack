@@ -154,11 +154,12 @@ const SidebarMenu = ({ setActiveTab }) => {
         </a>
         {openSection === "svelte" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
-            <li>
-              <a href="#" className="text-gray-300 hover:text-white">
-                Svelte with Vite
-              </a>
-            </li>
+            <button
+              onClick={() => setActiveTab("svelte-with-vite")}
+              className="text-gray-300 mb-1 hover:text-white"
+            >
+              Svelte with Vite
+            </button>
             <li>
               <a href="#" className="text-gray-300 hover:text-white">
                 SvelteKit
