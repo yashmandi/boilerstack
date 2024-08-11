@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { FaChevronDown, FaChevronUp } from "react-icons/fa";
 
 const Intro = () => {
   const [openIndex, setOpenIndex] = useState(null);
@@ -78,10 +79,19 @@ const Intro = () => {
           {faqs.map((faq, index) => (
             <div key={index} className="mb-4">
               <button
-                className="w-full text-left text-white text-sm font-semibold py-4 px-4 bg-[#0f0f0f] hover:bg-[#141414] transition-all rounded-t-md focus:outline-none"
+                className="w-full text-left text-white text-sm font-semibold py-4 px-4 bg-[#0f0f0f] hover:bg-[#141414] transition-all rounded-t-md focus:outline-none flex items-center justify-between"
                 onClick={() => toggleFAQ(index)}
               >
                 {faq.question}
+                <span
+                  className={`transition-transform duration-500 ${openIndex === index ? 'rotate-180' : 'rotate-0'}`}
+                >
+                  {!openIndex === index ? (
+                    <FaChevron className="text-white" />
+                  ) : (
+                    <FaChevronDown className="text-white" />
+                  )}
+                </span>
               </button>
               {openIndex === index && (
                 <div className="bg-[#0f0f0f] hover:bg-[#141414] text-white p-4 rounded-b-md text-sm">
