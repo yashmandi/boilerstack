@@ -19,6 +19,7 @@ import NextWithTypescript from "../components/SidebarPages.jsx/NextWithTypescrip
 import ExpressWithMongo from "../components/SidebarPages.jsx/ExpressWithMongo";
 import ExpressWithTypescript from "../components/SidebarPages.jsx/ExpressWithTypescript";
 import Koa from "../components/SidebarPages.jsx/Koa";
+import MernStack from "../components/SidebarPages.jsx/MernStack";
 
 const Stack = () => {
   const [activeTab, setActiveTab] = useState("intro");
@@ -59,6 +60,8 @@ const Stack = () => {
         return <ExpressWithTypescript />;
       case "koa":
         return <Koa />;
+      case "mern-stack":
+        return <MernStack />;
       default:
         return <Intro />;
     }

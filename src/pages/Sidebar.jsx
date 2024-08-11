@@ -306,13 +306,14 @@ const SidebarMenu = ({ setActiveTab }) => {
           <span className="text-md pt-4 pl-8 mb-2">Fullstack</span>
         </a>
         <li>
-          <a
+          <button
             href="#"
-            onClick={() => toggleSection("fullstack")}
+            onClick={() => setActiveTab("mern-stack")}
             className="flex items-start justify-start text-center text-sm mb-2 rounded-lg text-gray-200 hover:text-white bg-[#0d0d0d] hover:underline group"
           >
             <span className="text-sm pl-8">MERN Stack</span>
-          </a>
+          </button>
+         
           <a
             href="#"
             onClick={() => toggleSection("fullstack")}
