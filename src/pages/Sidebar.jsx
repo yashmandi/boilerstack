@@ -232,7 +232,7 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-            <button
+              <button
                 onClick={() => setActiveTab("express-with-typescript")}
                 className="text-gray-300 mb-1 hover:text-white"
               >
@@ -240,9 +240,12 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
+              <button
+                onClick={() => setActiveTab("koa")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
                 Koa.js
-              </a>
+              </button>
             </li>
           </ul>
         )}

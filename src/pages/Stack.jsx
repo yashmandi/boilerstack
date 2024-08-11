@@ -18,6 +18,7 @@ import NextWithTailwind from "../components/SidebarPages.jsx/NextWithTailwind";
 import NextWithTypescript from "../components/SidebarPages.jsx/NextWithTypescript";
 import ExpressWithMongo from "../components/SidebarPages.jsx/ExpressWithMongo";
 import ExpressWithTypescript from "../components/SidebarPages.jsx/ExpressWithTypescript";
+import Koa from "../components/SidebarPages.jsx/Koa";
 
 
 const Stack = () => {
@@ -57,6 +58,8 @@ const Stack = () => {
         return <ExpressWithMongo />;
       case "express-with-typescript":
         return <ExpressWithTypescript />;
+      case "koa":
+        return <Koa />;
       default:
         return <Intro />;
     }
