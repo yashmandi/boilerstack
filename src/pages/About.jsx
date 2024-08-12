@@ -7,15 +7,15 @@ const About = () => {
     <div className="min-h-screen bg-[#0d0d0d] text-white">
       <NavbarComponent />
       <div className="p-8 mx-auto max-w-5xl">
-        <h1 className="text-2xl sm:text-3xl font-bold mb-6">About BoilerStack</h1>
-        <p className="mb-4 text-sm sm:text-base">
+        <h1 className="text-2xl sm:text-2xl  font-bold mb-6">About BoilerStack</h1>
+        <p className="mb-4 text-xs sm:text-base">
           BoilerStack is a comprehensive collection of boilerplates for various
           web development frameworks and libraries. The goal is to provide
           developers with a starting point for their projects, reducing the
           initial setup time and allowing them to focus on building features.
         </p>
-        <h2 className="text-xl sm:text-2xl font-bold mt-6 mb-4">Project Goals</h2>
-        <ul className="list-disc list-inside ml-4 text-sm sm:text-base">
+        <h2 className="text-xl sm:text-xl font-bold mt-6 mb-4">Project Goals</h2>
+        <ul className="list-disc list-inside ml-4 text-xs sm:text-base">
           <li className="mb-2">
             Offer a variety of boilerplate projects for different tech stacks.
           </li>
