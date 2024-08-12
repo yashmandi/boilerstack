@@ -22,6 +22,7 @@ import Koa from "../components/SidebarPages.jsx/Koa";
 import MernStack from "../components/SidebarPages.jsx/MernStack";
 import DjangoWithRest from "../components/SidebarPages.jsx/DjangoWithRest";
 import DjangoWithGraphql from "../components/SidebarPages.jsx/DjangoWIthGraphql";
+import FlaskWithSql from "../components/SidebarPages.jsx/FlaskWithSql";
 
 const Stack = () => {
   const [activeTab, setActiveTab] = useState("intro");
@@ -68,6 +69,8 @@ const Stack = () => {
         return <DjangoWithRest />;
       case  "django-with-graphql":
         return <DjangoWithGraphql />;
+      case "flask-with-sql":
+        return <FlaskWithSql />;
       default:
         return <Intro />;
     }
