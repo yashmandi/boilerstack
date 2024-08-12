@@ -21,7 +21,7 @@ import ExpressWithTypescript from "../components/SidebarPages.jsx/ExpressWithTyp
 import Koa from "../components/SidebarPages.jsx/Koa";
 import MernStack from "../components/SidebarPages.jsx/MernStack";
 import DjangoWithRest from "../components/SidebarPages.jsx/DjangoWithRest";
-import DjangoWIthGraphql from "../components/SidebarPages.jsx/DjangoWithGraphql";
+import DjangoWithGraphql from "../components/SidebarPages.jsx/DjangoWIthGraphql";
 
 const Stack = () => {
   const [activeTab, setActiveTab] = useState("intro");
@@ -67,7 +67,7 @@ const Stack = () => {
       case "django-with-rest":
         return <DjangoWithRest />;
       case  "django-with-graphql":
-        return <DjangoWIthGraphql />;
+        return <DjangoWithGraphql />;
       default:
         return <Intro />;
     }
