@@ -236,12 +236,12 @@ const Pricing = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="size-5 text-red-700"
+                      className="size-5 text-green-500"
                     >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        d="M6 18L18 6M6 6l12 12"
+                        d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
                     <span className="text-white">Priority support</span>
@@ -253,12 +253,12 @@ const Pricing = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="size-5 text-red-700"
+                      className="size-5 text-green-500"
                     >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        d="M6 18L18 6M6 6l12 12"
+                        d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
                     <span className="text-white">Help Center Access</span>
@@ -270,12 +270,12 @@ const Pricing = () => {
                       viewBox="0 0 24 24"
                       strokeWidth="1.5"
                       stroke="currentColor"
-                      className="size-5 text-red-700"
+                      className="size-5 text-green-500"
                     >
                       <path
                         strokeLinecap="round"
                         strokeLinejoin="round"
-                        d="M6 18L18 6M6 6l12 12"
+                        d="M4.5 12.75l6 6 9-13.5"
                       />
                     </svg>
                     <span className="text-white">Exclusive offers</span>
