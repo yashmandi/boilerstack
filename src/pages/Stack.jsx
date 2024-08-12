@@ -20,6 +20,7 @@ import ExpressWithMongo from "../components/SidebarPages.jsx/ExpressWithMongo";
 import ExpressWithTypescript from "../components/SidebarPages.jsx/ExpressWithTypescript";
 import Koa from "../components/SidebarPages.jsx/Koa";
 import MernStack from "../components/SidebarPages.jsx/MernStack";
+import DjangoWithRest from "../components/SidebarPages.jsx/DjangoWithRest";
 
 const Stack = () => {
   const [activeTab, setActiveTab] = useState("intro");
@@ -62,6 +63,8 @@ const Stack = () => {
         return <Koa />;
       case "mern-stack":
         return <MernStack />;
+      case "django-with-rest":
+        return <DjangoWithRest />;
       default:
         return <Intro />;
     }

@@ -263,9 +263,12 @@ const SidebarMenu = ({ setActiveTab }) => {
         {openSection === "django" && (
           <ul className="ml-10 mt-1.5 mb-4 text-sm space-y-0.5">
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
-                Django with REST framework
-              </a>
+              <button
+                onClick={() => setActiveTab("django-with-rest")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
+                Django with REST Framework
+              </button>
             </li>
             <li>
               <a href="#" className="text-gray-300 hover:text-white">
@@ -313,7 +316,7 @@ const SidebarMenu = ({ setActiveTab }) => {
           >
             <span className="text-sm pl-8">MERN Stack</span>
           </button>
-         
+
           <a
             href="#"
             onClick={() => toggleSection("fullstack")}
