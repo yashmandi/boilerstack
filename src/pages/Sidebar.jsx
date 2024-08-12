@@ -271,9 +271,12 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-              <a href="#" className="text-gray-300 hover:text-white">
-                Django with GraphQL
-              </a>
+            <button
+                onClick={() => setActiveTab("django-with-graphql")}
+                className="text-gray-300 mb-1 hover:text-white"
+              >
+                Django with GraphQl
+              </button>
             </li>
           </ul>
         )}
