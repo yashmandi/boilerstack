@@ -24,6 +24,7 @@ import DjangoWithRest from "../components/SidebarPages.jsx/DjangoWithRest";
 import FlaskWithSql from "../components/SidebarPages.jsx/FlaskWithSql";
 import MeanStack from "../components/SidebarPages.jsx/MeanStack";
 import DjangoWithGraphql from "../components/SidebarPages.jsx/DjangoWithGraphql";
+import MevnStack from "../components/SidebarPages.jsx/MevnStack";
 
 const Stack = () => {
   const [activeTab, setActiveTab] = useState("intro");
