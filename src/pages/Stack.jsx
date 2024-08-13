@@ -21,9 +21,9 @@ import ExpressWithTypescript from "../components/SidebarPages.jsx/ExpressWithTyp
 import Koa from "../components/SidebarPages.jsx/Koa";
 import MernStack from "../components/SidebarPages.jsx/MernStack";
 import DjangoWithRest from "../components/SidebarPages.jsx/DjangoWithRest";
-import DjangoWithGraphql from "../components/SidebarPages.jsx/DjangoWIthGraphql";
 import FlaskWithSql from "../components/SidebarPages.jsx/FlaskWithSql";
 import MeanStack from "../components/SidebarPages.jsx/MeanStack";
+import DjangoWithGraphql from "../components/SidebarPages.jsx/DjangoWithGraphql";
 
 const Stack = () => {
   const [activeTab, setActiveTab] = useState("intro");
@@ -68,14 +68,14 @@ const Stack = () => {
         return <MernStack />;
       case "django-with-rest":
         return <DjangoWithRest />;
-      case  "django-with-graphql":
-        return <DjangoWithGraphql />;
       case "flask-with-sql":
         return <FlaskWithSql />;
       case "mevn-stack":
         return <MevnStack />;
       case "mean-stack":
         return <MeanStack />;
+      case "django-with-graphql":
+        return <DjangoWithGraphql />;
       default:
         return <Intro />;
     }
