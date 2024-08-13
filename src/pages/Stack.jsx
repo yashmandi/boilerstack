@@ -71,6 +71,8 @@ const Stack = () => {
         return <DjangoWithGraphql />;
       case "flask-with-sql":
         return <FlaskWithSql />;
+      case "mevn-stack":
+        return <MevnStack />;
       default:
         return <Intro />;
     }
