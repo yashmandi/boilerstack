@@ -271,7 +271,7 @@ const SidebarMenu = ({ setActiveTab }) => {
               </button>
             </li>
             <li>
-            <button
+              <button
                 onClick={() => setActiveTab("django-with-graphql")}
                 className="text-gray-300 mb-1 hover:text-white"
               >
@@ -327,13 +327,13 @@ const SidebarMenu = ({ setActiveTab }) => {
           >
             <span className="text-sm pl-8">MEVN Stack</span>
           </button>
-          <a
+          <button
             href="#"
-            onClick={() => toggleSection("fullstack")}
-            className="flex items-start justify-start text-center text-sm rounded-lg text-gray-200 hover:text-white bg-[#0d0d0d] hover:underline group"
+            onClick={() => setActiveTab("mean-stack")}
+            className="flex items-start justify-start text-center text-sm mb-2 rounded-lg text-gray-200 hover:text-white bg-[#0d0d0d] hover:underline group"
           >
             <span className="text-sm pl-8">MEAN Stack</span>
-          </a>
+          </button>
         </li>
       </li>
 

@@ -23,6 +23,7 @@ import MernStack from "../components/SidebarPages.jsx/MernStack";
 import DjangoWithRest from "../components/SidebarPages.jsx/DjangoWithRest";
 import DjangoWithGraphql from "../components/SidebarPages.jsx/DjangoWIthGraphql";
 import FlaskWithSql from "../components/SidebarPages.jsx/FlaskWithSql";
+import MeanStack from "../components/SidebarPages.jsx/MeanStack";
 
 const Stack = () => {
   const [activeTab, setActiveTab] = useState("intro");
@@ -73,6 +74,8 @@ const Stack = () => {
         return <FlaskWithSql />;
       case "mevn-stack":
         return <MevnStack />;
+      case "mean-stack":
+        return <MeanStack />;
       default:
         return <Intro />;
     }
