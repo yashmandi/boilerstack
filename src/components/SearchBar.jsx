@@ -7,12 +7,27 @@ const SearchBar = ({ placeholder }) => {
   const navigate = useNavigate();
 
   const boilerplates = [
-    { name: "MERN Stack", route: "/mern-stack" },
-    { name: "MEAN Stack", route: "/mean-stack" },
-    { name: "MEVN Stack", route: "/mevn-stack" },
-    { name: "Django with REST", route: "/django-with-rest" },
-    { name: "Django with GraphQL", route: "/django-with-graphql" },
-    { name: "Flask with SQL", route: "/flask-with-sql" },
+    { name: "MERN Stack", route: "/docs" },
+    { name: "MEAN Stack", route: "/docs" },
+    { name: "MEVN Stack", route: "/docs" },
+    { name: "Django with REST", route: "/docs" },
+    { name: "Django with GraphQL", route: "/docs" },
+    { name: "Flask with SQL", route: "/docs" },
+    { name: "Create React App", route: "/docs" },
+    { name: "React with Vite", route: "/docs" },
+    { name: "React Vite + Tailwind", route: "/docs" },
+    { name: "React with Vite", route: "/docs" },
+    { name: "Vue 3 with Vite", route: "/docs" },
+    { name: "Vue with Tailwind", route: "/docs" },
+    { name: "Angular with CLI", route: "/docs" },
+    { name: "Sveltekit", route: "/docs" },
+    { name: "Svelte with Vite", route: "/docs" },
+    { name: "Express with MongoDB", route: "/docs" },
+    { name: "Express with Typescript", route: "/docs" },
+    { name: "Koa.js", route: "/docs" },
+    { name: "Django with REST Framework", route: "/docs" },
+    { name: "Django with GraphQl", route: "/docs" },
+    { name: "Flask with SQLAlchemy", route: "/docs" },
   ];
 
   const handleChange = (e) => {
